@@ -1,0 +1,21 @@
+header {
+    text-align: center;
+}
+
+.header{
+	min-height: 30vh;
+    justify-content: space-between;
+    position:relative;
+    background: black;
+    align-items: center;
+    align-content: center;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+}

@@ -1,14 +1,27 @@
-header {
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fira+Code:wght@300..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kristi&family=Neonderthaw&family=Overpass+Mono:wght@300..700&family=Poiret+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sono:wght@200..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+html {
+    font-size: 125%;
+    font-family: Instrument Serif;
 }
 
-.header{
-	min-height: 30vh;
-    justify-content: space-between;
-    position:relative;
-    background: black;
-    align-items: center;
-    align-content: center;
+header {
+    align-content:end;
+    text-align: right;
+    padding-inline: 1rem;
+    padding-block: 1rem;
+    background-image: url("../direction-3/pattern.jpg");
+    background-size: cover;
+    background-blend-mode: hard-light;
+    color: white;
+    min-height: 30vh;
+    color: #442f2a;
+}
+
+
+#sub-header{
+    color: #442f2a;
+    font-weight: lighter;
 }
 
 p {
@@ -16,10 +29,10 @@ p {
 }
 
 h1 {
-    color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-block: 0.5rem;
     text-wrap: pretty;
+    font-weight: bold;
 
     @media (width > 800px) {
 	font-size: 3rem;

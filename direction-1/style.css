@@ -1,7 +1,16 @@
 html {
     font-size: 125%;
-    margin: 1rem;
     font-family: Helvetica Neue, sans-serif;
+}
+
+header {
+    align-content: center;
+    text-align: center;
+    background-color: rgb(255, 94, 0);
+    background-blend-mode: hard-light;
+    color: white;
+    min-height: 30vh;
+    color: white;
 }
 
 .main-nav {
@@ -20,6 +29,10 @@ html {
 	font-size: 1rem;
     padding: 1rem 1rem;
 	}
+}
+
+main {
+    margin: 1rem;
 }
 
 footer {

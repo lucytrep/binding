@@ -2,65 +2,36 @@
 <html>
 	<head>
 		<title>Lucy's Manuscript</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link href="../reset.css" rel="stylesheet">
 		<link href="../direction-1/style.css" rel="stylesheet">
 		<link href="../common.css" rel="stylesheet">
 	</head>
 	<body>
-		    <nav>
-                <ol>
+		<header>
+			<h1>Project 1</h1>
+
+			<nav>
+                <ol class="main-nav">
                     <li><a href="../index.html">Homepage</a></li>
                     <li><a href="../direction-2/index.html">Direction 2</a></li>
                     <li><a href="../direction-3/index.html">Direction 3</a></li>
                 </ol>
             </nav>
-
-
-		<header>
-			<h1 class="em">Project 1<span class="cursor">|</span></h1>
-			<ol>
-			<li class="class"><a href="https://typography-interaction-2526.github.io/">"Typography and Interaction 2025-2026"</a></li>
-			<li class="author"><a href="https://docs.google.com/document/d/1En_aoZwgi3slvnv18JRrc-xucbYeG75tMyGsg1nFcA4/edit?tab=t.0#heading=h.92eruh5who0j"> Lucy Trepanier </a></li>
-			</ol>
-		
-			<!-- /* crediting Michael French for this code and bringing this cursor idea to life */ -->
-
-			<section class="toc">
-
-				<ul>
-				<section class="tocheader"><a href="#em"><span class="normal">></span> What Is Code? </a></section>
-				<ul class="sub-list">
-				<li class="li"><a href="#1.1"> Let's Begin </a></li>
-				<li class="li"><a href="#1.2"> How Do You Type an “A”? </a></li>
-				<li class="li"><a href="#1.3"> How Does Code Become Software? </a></li>
-				<li class="li"><a href="#1.4"> What’s With All These Conferences, Anyway? </a></li></ul>
-				
-				<ul>
-				<section class="tocheader"><a href="#em2"><span class="normal">></span> Reflection </a></section>
-				<ul class="sub-list">
-				<li class="li"><a href="#2.1"> Intro </a></li>
-				<li class="li"><a href="#2.2"> World Language </a></li>
-				<li class="li"><a href="#2.3"> Optimism </a></li>
-				<li class="li"><a href="#2.4"> Broader Audience </a></li>
-				</ul>
-			</section>
-			<nav>
-				<!-- <1-- T0D0 implement nav-->
-			</nav>
 		</header>
 
 		<main>
 			<article>
-				<section class="article"> 
-					<!-- <h2 id="em">what is code?</h2> previous code -->
-					<h2 id="em"> What Is Code </h2>
-					<li class="link"><a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?embedded-checkout=true"> Link </a></li>
-					<li class="date"><time datetime="2015-06-11"> June 11, 2015 </time></li>
-					<li class="author"><a href="https://en.wikipedia.org/wiki/Paul_Ford_(technologist)"> By Paul Ford </a></li>
-
-					<section class="article">
-						<h3 class="em" id="1.1"> Let’s Begin </h3>
-						<p class="first-child">
+				<section> 
+					<ol>
+					<h1 id="title">What Is Code</h1>
+					<li><a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/?embedded-checkout=true"> Original Article</a></li>
+					<li>June 11, 2015</li>
+					<li><a href="https://en.wikipedia.org/wiki/Paul_Ford_(technologist)"> By Paul Ford </a></li>
+					</ol>
+					<section>
+						<h2> Let’s Begin </h2>
+						<p>
 							A computer is a clock with benefits. They all work the same, doing second-grade math, one step at a time: Tick, take a number and put it in box one. Tick, take another number, put it in box two. Tick, operate (an operation might be addition or subtraction) on those two numbers and put the resulting number in box one. Tick, check if the result is zero, and if it is, go to some other box and follow a new set of instructions.
 						</p>
 						<p>
@@ -77,9 +48,9 @@
 						</p>
 					</section>
 
-					<section class="article">
-						<h3 class="em" id="1.2"> How Do You Type an “A”? </h3>
-						<p class="first-child">
+					<section">
+						<h2> How Do You Type an “A”? </h2>
+						<p">
 							Consider what happens when you strike a key on your keyboard. Say a lowercase “a.” The keyboard is waiting for you to press a key, or release one; it’s constantly scanning to see what keys are pressed down. Hitting the key sends a scancode.
 						</p>
 						<p>
@@ -93,17 +64,10 @@
 						</p>
 					</section>
 
-					<section class="article">
-						<h3 class="em" id="1.3"> How Does Code Become Software? </h3>
-
-						<section class="bold">
-							<code class="question">&lt;question&gt;</code>
-							<p class="quote">
-								We know that a computer is a clock with benefits, and that software starts as code, but how?
-							</p>
-							<code class="question">&lt;/question&gt;</code>
-						</section>
-							
+					<section>
+						<h2> How Does Code Become Software? </h2>
+						
+						<p>We know that a computer is a clock with benefits, and that software starts as code, but how?
 						</p>
 						<p>
 							We know that someone, somehow, enters a program into the computer and the program is made of code. In the old days, that meant putting holes in punch cards. Then you’d put the cards into a box and give them to an operator who would load them, and the computer would flip through the cards, identify where the holes were, and update parts of its memory, and then it would—OK, that’s a little too far back. Let’s talk about modern typing-into-a-keyboard code. It might look like this:
@@ -168,13 +132,13 @@
 							Instead of worrying about where the words are stored in memory and having to go character by character, programming languages let you think of things like strings, arrays, and trees. That’s what programming gives you. You may look over a programmer’s shoulder and think the code looks complex and boring, but it’s covering up repetitive boredom that’s unimaginably vast.
 						</p>
 
-						<section class="bold2">
-							<code class="question">&lt;quote&gt;</code>
-							<p class="orange-text">- Paul Ford </p>
-							<p class="quote">
+						<section>
+							<code>&lt;quote&gt;</code>
+							<p>- Paul Ford </p>
+							<p>
 								Code looks complex and boring
 							</p>
-							<code class="question">&lt;/quote&gt;</code>
+							<code>&lt;/quote&gt;</code>
 						</section>
 
 						<p>
@@ -192,9 +156,9 @@
 						<code>&lt;img&gt;</code>
 					</section>
 					
-					<section class="article">
-						<h3 class="em-smaller" id="1.4"> What’s With All These Conferences, Anyway? </h3>
-						<p class="first-child">
+					<section>
+						<h2> What’s With All These Conferences, Anyway? </h2>
+						<p>
 							Conferences! The website Lanyrd lists hundreds of technology conferences for June 2015. There’s an event for software testers in Chicago, a Twitter conference in São Paulo, and one on enterprise content management in Amsterdam. In New York alone there’s the Big Apple Scrum Day, the Razorfish Tech Summit, an entrepreneurship boot camp for veterans, a conference dedicated to digital mapping, many conferences for digital marketers, one dedicated to Node.js, one for Ruby, and one for Scala (these are programming languages), a couple of breakfasts, a conference for cascading style sheets, one for text analytics, and something called the Employee Engagement Awards.
 						</p>
 						<p>
@@ -217,27 +181,27 @@
 							Conferences began to develop codes of conduct, rules and algorithms for people (men, really) to follow.
 						</p>
 				
-					<section class="block">
-						<code class="blockquote">&lt;blockquote&gt;</code>
-						<p class="orange-text">- Burlington Ruby Conference </p>
-						<p class="quote">
+					<section>
+						<code>&lt;blockquote&gt;</code>
+						<p>- Burlington Ruby Conference </p>
+						<p>
 								If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible …
 							</p>
-						<code class="blockquote">&lt;/blockquote&gt;</code>
+						<code>&lt;/blockquote&gt;</code>
 
-						<code class="blockquote">&lt;blockquote&gt;</code>
-						<p class="orange-text">- php[architect] </p>
-						<p class="quote">
+						<code>&lt;blockquote&gt;</code>
+						<p>- php[architect] </p>
+						<p>
 								php[architect] is dedicated to providing a harassment-free event experience for everyone and will not tolerate harassment or offensive behavior in any form.
 							</p>
-						<code class="blockquote">&lt;/blockquote&gt;</code>
+						<code">&lt;/blockquote&gt;</code>
 
-						<code class="blockquote">&lt;blockquote&gt;</code>
-						<p class="orange-text">— devnexus </p>
-						<p class="quote">
+						<code>&lt;blockquote&gt;</code>
+						<p>— devnexus </p>
+						<p>
 								The Atlanta Java Users Group (AJUG) is dedicated to providing an outstanding conference experience for all attendees, speakers, sponsors, volunteers, and organizers involved in DevNexus (GeekyNerds) regardless of gender, sexual orientation, disability, physical appearance, body size, race, religion, financial status, hair color (or hair amount), platform preference, or text editor of choice.
 							</p>
-						<code class="blockquote">&lt;/blockquote&gt;</code>
+						<code>&lt;/blockquote&gt;</code>
 					</section>
 
 						<p>
@@ -248,14 +212,14 @@
 							“I go to work and I stick out like a sore thumb. I have been mistaken for an administrative assistant more than once. I have been asked if I was physical security (despite security wearing very distinctive uniforms),” wrote Erica Joy Baker on Medium.com who has worked, among other places, at Google.
 						</p>
 
-						<h4 class="h3"> Famous Women in Coding History </h4>
-						<p class="person">
+						<h2> Women in Coding History </h2>
+						<p>
 							Ada Lovelace: </p>
 						<p>
 							The first programmer. She devised algorithms for Charles Babbage’s “analytical engine,” which he never built.
 						</p>
 						<code>&lt;img&gt;</code>
-						<p class="person">
+						<p>
 							Grace Murray Hopper: </p>
 						<p>
 							World War II hero and inventor of the compiler.
@@ -280,53 +244,7 @@
 					</section>
 				</section>
 			</article>
-		
-			<article>
-				<section class="space">
-					<section class="reflection">
-						<h5 id="em2">Reflection</h5>
-						
-						<li class="date2"><time datetime="2015-06-11"> September 11, 2025 </time></li>
-							<li class="author2"><a href="https://docs.google.com/document/d/1En_aoZwgi3slvnv18JRrc-xucbYeG75tMyGsg1nFcA4/edit?tab=t.0#heading=h.92eruh5who0j"> By Lucy Trepanier </a></li>
-	
-					<section class="reflection">
-						<h6 class="em" id="2.1"> Intro </h6>
-							<!-- this heading is being weird and won't add space above -->
-						<p class="first-child">
-							As a graphic and digital designer, I can appreciate the parallel between code and design. Both are incredibly meticulous, and each step contributes to the final product. With coding, you are problem-solving through each letter, word, &lt;div&gt;, etc., and creating an explicit list of instructions carried out by logic, which is then turned into software (Ford, 2015). In my experience, design works similarly. The wrong choice of imagery, colour, or font can jar a user just as much as seeing raw HTML code on a website. As a designer, I am curious to see how much I can relate and apply my previous knowledge, perfectionism, and personal differences to this subject. Art directors questioning my designs and developers explaining issues with my Figma frames have shown me that design and code can be inextricably linked.
-						</p>
-						<p>
-							Reading <span class="italic">What Is Code?</span> made me reflect on why it’s taken me so long to finally learn and explore the world of interaction design. I have wanted to do this for years, but why was I so hesitant before? Ford brings up things in his discussion that stood out to me, and why internal or external factors have affected me thus far.
-						</p>
-					</section>
-
-					<section class="reflection">
-						<h6 class="em" id="2.2"> World Language </h6>
-						<p class="first-child">
-							It is important to realize that coding is similar to learning a new world language. However, unlike spoken language taught through interaction, coding is strictly on screen and with the computer. Mistakes offer no forgiveness, and the code either works or it does not, with little to no explanation. This makes it daunting, frustrating, and so much more… especially for us beginners.
-						</p>
-					</section>
-
-					<section class="reflection">
-						<h6 class="em" id="2.3"> Optimism </h6>
-						<p class="first-child">
-							Ford’s discussion highlights how coding is largely a male-dominated environment that has intimidated many women from pursuing it. But we see historically, women have been among the true pioneers! From my previous experience as a graphic designer, I’ve seen how gender diversity and different perspectives add value and strengthen a final product. When design and code backgrounds work together and intertwine, something beautiful can be created. I am optimistic that more women and diverse groups will become involved as technology expands. Like design, code has so much more creative potential, and we must put the stereotypes aside. This makes me question why Ford describes it as “complex and boring” (Ford, 2015). I think coding holds a lot of possibilities for playfulness and innovation, particularly when paired with curiosity and design thinking.
-						</p>
-					</section>
-
-					<section class="reflection">
-						<h6 class="em" id="2.4"> Broader Audience </h6>
-						<p class="first-child">
-							Coding can be intimidating, but it calls for a broader audience. As Ford infers, the issue lies in the external environment, so it will be up to those within it to push for a more inclusive and welcoming community. Diversity and participation from all backgrounds can only heighten coding's impact. I am encouraged and excited that our class is predominantly female from all over the world. This gives me so much hope for women in STEM and that the industry is shifting. Women are some of the most revolutionary parts of code’s timeline, including Ada Lovelace and Grace Murray (Ford, 2015). Diverse voices spark new and innovative ideas that break down what we currently know. Despite the challenges I personally face as a neurodivergent learner, I see a window of opportunity, and I’m ready to participate and make an impact.
-						</p>
-
-						<li class="link2"><a href="#top">"Back To Top"</a></li>
-					</section>
-					</section>
-				</seciton>
-			</article>
 		</main>
-
 		<footer>
 			<small>Typography and Interaction (c) 2025 - <span class="pink">Lucy Trepanier</span></small>
 		</footer>

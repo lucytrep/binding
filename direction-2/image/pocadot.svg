@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #ffcce3;
+      }
+
+      .cls-3 {
+        fill: url(#New_Pattern_2);
+        opacity: .3;
+      }
+    </style>
+    <pattern id="New_Pattern_2" data-name="New Pattern 2" x="0" y="0" width="112.49" height="112.49" patternUnits="userSpaceOnUse" viewBox="0 0 112.49 112.49">
+      <g>
+        <rect class="cls-1" y="0" width="112.49" height="112.49"/>
+        <circle class="cls-2" cx="112.49" cy="84.37" r="13.12"/>
+        <circle class="cls-2" cx="56.24" cy="112.49" r="13.12"/>
+        <circle class="cls-2" cx="0" cy="84.37" r="13.12"/>
+        <circle class="cls-2" cx="112.49" cy="28.12" r="13.12"/>
+        <circle class="cls-2" cx="56.24" cy="56.24" r="13.12"/>
+        <circle class="cls-2" cx="0" cy="28.12" r="13.12"/>
+        <circle class="cls-2" cx="56.24" cy="0" r="13.12"/>
+      </g>
+    </pattern>
+  </defs>
+  <rect class="cls-3" x="-1.74" y=".81" width="1918.77" height="1081.28"/>
+</svg>

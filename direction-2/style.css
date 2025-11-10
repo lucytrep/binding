@@ -10,7 +10,7 @@ header {
     text-align: center;
     background-image: url("../direction-2/image/pocadot.svg");
     background-size: cover;
-    background-blend-mode: hard-light
+    background-blend-mode: hard-light;
     color: white;
     min-height: 30vh;
     color: #442f2a;

@@ -1,27 +1,26 @@
 html {
-    font-size: 125%;
     font-family: Helvetica Neue, sans-serif;
+    background-color:black;
+    color: #fdf9e6;
 }
 
 header {
-    align-content: center;
     text-align: center;
     background-color: rgb(255, 94, 0);
-    background-blend-mode: hard-light;
-    color: white;
-    min-height: 30vh;
-    color: white;
+    display: block;
+
 }
 
 .main-nav {
-    display: flex;
-    justify-content: center;
-    margin-inline: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 0;
+  width: 100%;
 }
 
 .main-nav a {
     font-size: 0.7rem;
-    padding: 0.5rem 0.5rem;
+    padding: 1rem 1rem;
     display: block;
     text-align: center;
 
@@ -31,16 +30,15 @@ header {
 	}
 }
 
-main {
+/* main {
     margin: 1rem;
-}
+} */
 
 footer {
     font: 1rem;
     padding-inline: 2rem;
     padding-block: 2rem;
     margin-block: 1rem;
-    color:white;
     background-color: black;
     border-radius: 1rem;
 }
@@ -57,13 +55,15 @@ p {
 	}
 }
 
-h1 {
-    font-size: 3rem;
-    text-align: center;
+.gif {
+	display: flex;
+	justify-content: center;
+    object-fit: cover
+}
 
-    @media (width > 800px) {
-	font-size: 4rem;
-	}
+img {
+	display: block;
+	inline-size: 100%;
 }
 
 #title { 
@@ -73,6 +73,17 @@ h1 {
     @media (width > 800px) {
 	font-size: 3rem;
 	}
+}
+
+h1 {
+    font-size: 1.65rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #d04533; /* No borders! */
+	border-radius: 5rem;
+    margin-inline: 1.5rem;
+    margin-block: 1.5rem;
+    padding:0.3rem
 }
 
 h2 {
@@ -87,7 +98,7 @@ h2 {
 
 li {
     font-size: 0.75rem;
-    line-height: 1rem;
+    text-decoration: underline;
 
     @media (width > 800px) {
 	font-size: 1rem;
@@ -97,4 +108,15 @@ li {
 
 code {
     margin-inline: 1rem;
+}
+
+.list-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 0;
+  padding-inline: 1rem;
+
+  li {
+    text-decoration: none;
+  }
 }

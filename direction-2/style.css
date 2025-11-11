@@ -1,8 +1,7 @@
-
-html {
-    font-size: 125%;
-    font-family: Helvetica, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Sora:wght@100..800&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Rubik+Mono+One&family=Sora:wght@100..800&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Boldonse&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Rubik+Mono+One&family=Sora:wght@100..800&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Boldonse&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik+Mono+One&family=Sora:wght@100..800&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
 
 header {
     align-content: center;
@@ -10,26 +9,23 @@ header {
     background-image: url("../direction-2/image/pocadot.svg");
     background-size: cover;
     background-blend-mode: hard-light;
-    color: white;
-    min-height: 30vh;
     color: #442f2a;
+    padding-block: 2rem;
 }
-
 
 #sub-header{
     color: #442f2a;
     font-weight: lighter;
-}
-
-p {
-    color: white;
+    font-family: 'Nunito';
 }
 
 h1 {
     font-size: 2rem;
-    padding-block: 0.5rem;
     text-wrap: pretty;
     font-weight: bold;
+    /* font-family: 'BBH Sans Hegarty'; */
+    font-family: 'Rubik Mono One';
+
 
     @media (width > 800px) {
 	font-size: 3rem;
@@ -37,19 +33,40 @@ h1 {
 }
 
 .main-nav {
-    display: flex;
-    justify-content: center;
-    margin-inline: 1rem;
+    justify-content: left;
+    display:grid;
+    grid-template-columns: 1fr;
+    position:relative;
+    align-items:start;
+
+    @media (width > 800px) {
+	grid-template-columns: 1fr 1fr 1fr;
+    
+	}
 }
 
 .main-nav a {
+    font-family: 'Rubik Mono One';
     font-size: 0.7rem;
-    padding: 0.5rem 0.5rem;
+    padding: 1rem 1rem;
     display: block;
-    text-align: center;
+    text-align: left;
 
     @media (width > 800px) {
 	font-size: 1rem;
     padding: 1rem 1rem;
 	}
+}
+
+#one {
+    background-color: #442f2a;
+    color: #f9f4eb;
+}
+
+#two {
+    background-color: #f8a4b6;
+}
+
+#three {
+    background-color: #ffd57b;
 }

@@ -50,6 +50,18 @@ h1 {
 	}
 }
 
+.main-nav a {
+    font-size: 0.7rem;
+    padding: 0.5rem 0.5rem;
+    display: block;
+    text-align: center;
+
+    @media (width > 800px) {
+	font-size: 1rem;
+    padding: 1rem 1rem;
+	}
+}
+
 #one {
     background-color: #f5cac4;
     padding: 2rem;
@@ -75,16 +87,4 @@ h1 {
     @media (width > 800px) {
     padding: 5rem;
 }
-}
-
-.main-nav a {
-    font-size: 0.7rem;
-    padding: 0.5rem 0.5rem;
-    display: block;
-    text-align: center;
-
-    @media (width > 800px) {
-	font-size: 1rem;
-    padding: 1rem 1rem;
-	}
 }

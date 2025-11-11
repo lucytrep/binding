@@ -1,6 +1,6 @@
 html {
     font-family: Helvetica Neue, sans-serif;
-    background-color: #121212;
+    background-color: #0f1617;
     color: #fdf9e6;
 }
 
@@ -17,7 +17,7 @@ header {
   gap: 0;
   width: 100%;
   background-color: #fdf9e6;
-  color: #121212;
+  color: #0f1617;
 }
 
 .main-nav a {
@@ -130,7 +130,7 @@ p {
     min-height: 20vh;
 
     h1 {
-        color: #121212;
+        color: #0f1617;
         font-size: 2.5rem;
     }
 }
@@ -319,7 +319,7 @@ li {
     position: sticky;
     top: 1rem;
     z-index: 1;
-    background-color: #121212;
+    background-color: #0f1617;
     top: 0;
 
     @media (width > 800px) {
@@ -336,7 +336,7 @@ li {
   gap: 0;
   width: 100%;
   background-color: #fdf9e6;
-  color: #121212;
+  color: #0f1617;
 }
 
 .footer-item {

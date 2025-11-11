@@ -16,6 +16,8 @@ header {
   justify-content: space-between;
   gap: 0;
   width: 100%;
+  background-color: #fdf9e6;
+  color: black;
 }
 
 .main-nav a {
@@ -35,16 +37,16 @@ header {
 } */
 
 footer {
-    font: 1rem;
-    padding-inline: 2rem;
-    padding-block: 2rem;
-    margin-block: 1rem;
-    background-color: black;
-    border-radius: 1rem;
+    font-size: 0.85rem;
+    text-align: center;
+    background-color: #fdf9e6; /* No borders! */
+    color: black;
+    margin-block-start: 1rem;
+    padding-block: 1rem;
 }
 
 p {
-    font-size: 1rem;
+    font-size: 0.95rem;
     padding-block-end: 1rem;
     line-height: 1.5rem;
 
@@ -76,24 +78,55 @@ img {
 }
 
 h1 {
-    font-size: 1.65rem;
+    font-size: 2rem;
+    font-style: italic;
     text-align: center;
     font-weight: bold;
-    background-color: #d04533; /* No borders! */
-	border-radius: 5rem;
+    /* background-color: #d04533; /* No borders! */
+	/* border-radius: 5rem; */ 
+    color: #fdf9e6;
     margin-inline: 1.5rem;
-    margin-block: 1.5rem;
-    padding:0.3rem
+    margin-block: 1rem;
+    padding:0.3rem;
+
+    @media (min-width: 800px) {
+    font-size: 5rem;
+    text-wrap: blanced;
+    line-height: 5rem;
+  }
 }
 
 h2 {
-    font-size: 1.5rem;
-    text-align: left;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
     margin-block: 1rem;
+    padding: 0.75rem;
+    border-radius: 5rem;
 
     @media (width > 800px) {
 	font-size: 2rem;
 	}
+
+}
+
+.one {
+    background-color: #2855a3; /* No borders! */
+}
+
+.two {
+    background-color: #da4773; /* No borders! */
+}
+
+.three {
+    background-color: #44872b; /* No borders! */
+    text-wrap: pretty;
+}
+
+.four {
+    background-color: #d1a33a; /* No borders! */
+    text-wrap: pretty;
+    color: black;
 }
 
 li {
@@ -106,17 +139,30 @@ li {
 	}
 }
 
-code {
-    margin-inline: 1rem;
-}
-
 .list-items {
   display: flex;
   justify-content: space-between;
   gap: 0;
   padding-inline: 1rem;
+  padding-block: 1rem;
 
   li {
     text-decoration: none;
   }
+}
+
+#text-container {
+    margin-inline: 2rem;
+}
+
+#text-container2 {
+    margin-inline: 2rem;
+}
+
+#text-container3 {
+    margin-inline: 2rem;
+}
+
+#text-container4 {
+    margin-inline: 2rem;
 }

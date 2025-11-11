@@ -62,14 +62,58 @@ p {
 }
 
 .gif {
-	display: flex;
-	justify-content: center;
-    object-fit: cover
-}
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    min-height: 60vh;
+    background-image: url("../direction-1/gif.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-block-end: 1rem;
 
-img {
-	display: block;
-	inline-size: 100%;
+    /* display: flex;
+    justify-content: space-between;
+    gap: 0;
+    padding-inline: 1rem;
+    padding-block: 1rem;
+    background-image: url("../direction-1/gif.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    li {
+    text-decoration: none;
+    } */
+
+    ol {
+        display: flex;
+        justify-content: center;
+        
+        /* list-style: none; */
+        /* padding: 0; */
+        /* margin: 0; */
+        gap: 0.5rem 1rem;
+    }
+
+    li {
+        font-size: 0.9rem;
+        text-align: left;
+        font-size: 0.6rem;
+        color: #da4773;
+    }
+
+    @media (min-width: 800px) {
+    .gif {
+    min-height: 90vh; /* fills more of the screen on desktop */
+    }
+
+    .gif li {
+    font-size: 1.2rem;
+    }
+}
 }
 
 /* #title { 
@@ -82,9 +126,8 @@ img {
 } */
 
 .title {
-    color: #121212;
+    color: #fdf9e6;
     min-height: 20vh;
-    background-color: #fdf9e6;
 
     h1 {
         color: #121212;
@@ -114,6 +157,8 @@ h1 {
 
 #main {
     padding-block-start: 2rem;
+    color: #fdf9e6;
+    font-size: 3rem;
 
     @media (min-width: 800px) {
     font-size: 5rem;
@@ -133,7 +178,7 @@ h1 {
 
 #top {
     font-size: 2rem;
-    margin-block-start: 1rem;
+    /* margin-block-start: 1rem; */
     color: #2855a3;
 
     @media (min-width: 800px) {
@@ -267,8 +312,8 @@ li {
 }
 
 .section-title {
-    padding-block: 0.5rem;
-    padding-inline: 0.5rem;
+    /* padding-block: 0.5rem;
+    padding-inline: 0.5rem; */
     font-size: 0.5rem;
     text-align: center;
     position: sticky;

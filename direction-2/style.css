@@ -13,15 +13,15 @@ header {
     padding-block: 4rem;
 }
 
-article {
+/* article {
     margin: 1rem;
-}
+} */
 
 #sub-header{
     color: #442f2a;
     font-weight: lighter;
     font-family: 'Nunito';
-    font-size: 0.75rem;
+    font-size: 1rem;
 
 }
 /* 
@@ -37,6 +37,7 @@ h1 {
     font-weight: bold;
     /* font-family: 'BBH Sans Hegarty'; */
     font-family: 'Rubik Mono One';
+    padding-block-start: 1rem;
 
 
     @media (width > 800px) {
@@ -60,7 +61,7 @@ h1 {
 .main-nav a {
     font-family: 'Rubik Mono One';
     font-size: 0.7rem;
-    padding: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
     display: block;
     text-align: left;
 
@@ -87,14 +88,14 @@ h1 {
     margin-block-start: 1rem;
 } */
 
-h2 {
+/* h2 {
     font-family: 'Rubik Mono One';
-    font-size: 4rem;
-    justify-items: center;
-    text-align: center;
-    line-height: 3.3rem;
-    color: #442f2a;
-}
+    font-size: 4rem; */
+    /* justify-items: center; */
+    /* text-align: center; */
+    /* line-height: 3.3rem; */
+    /* color: #442f2a;
+} */
 
 #italic {
     font-style: italic;
@@ -143,35 +144,67 @@ h3 {
     padding-block-end: 2rem;
 } */
 
-ol {
+/* ol {
     padding-block-end: 1rem;
+} */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Rubik Mono One';
+    gap: 0;
+    width: 100%;
+    background-color: #442f2a;
+    color: #f9f4eb;
 }
 
+.footer-item {
+    font-size: 0.7rem;
+    padding: 1rem 1rem;
+    display: block;
+    text-align: center;
 
+    @media (width > 800px) {
+	font-size: 1rem;
+    padding: 1rem 1rem;
+    text-decoration: none;
+}
+}
 
 /* added code for original article  */
 
 h2 {
+    -webkit-text-stroke: 0.09rem #442f2a;
     font-family: 'Rubik Mono One';
     font-size: 4rem;
     justify-items: center;
     text-align: center;
     line-height: 3.3rem;
-    color: #442f2a;
+    color: white;
+}
+
+#space-after {
+    padding-block-end: 1rem;
+    margin-block-end: 1rem;
 }
 
 #italic {
     font-style: italic;
     font-family: 'Nunito';
-    color: #f8a4b6;
+    color: #442f2a;
+    -webkit-text-stroke: 0;
 }
 
 #title {
-    margin-block: 2rem;
+    background-color: #ffd57b;
+    padding-block: 4rem;
+    border-block-start: solid #442f2a 0.1rem;
 
 }
 
 #author {
+    padding-block-start: 0;
+    margin-block-start: 0;
     font-family: 'Nunito';
     text-align: center;
 }
@@ -180,20 +213,112 @@ h2 {
 #date {
     font-family: 'Nunito';
     text-align: center;
-    margin-block-end: 1rem;
+}
+
+.titles {
+    background-image: url("../direction-2/image/pocadot.svg");
+    background-size: cover;
+    background-blend-mode: hard-light;
+    padding-block: 5rem;
+    align-items: center;
+    border-block-start: solid  #442f2a 0.1rem;
+    border-block-end: solid  #442f2a 0.1rem;
 }
 
 #small-title {
     font-weight: bold;
     font-family: 'Rubik Mono One';
-    font-size: 2rem;
-    line-height: 1.75rem;
+    font-size: 3rem;
     color: #ffd57b;
     -webkit-text-stroke: 0.1px #442f2a;
-    text-align: left;
-    font-kerning:auto;
+    text-align: center;
 }
 
+#small-title2 {
+    font-weight: bold;
+    font-family: 'Rubik Mono One';
+    font-size: 3rem;
+    color: #ffd57b;
+    -webkit-text-stroke: 0.1px #442f2a;
+    text-align: center;
+    line-height: 2.5rem;
+    word-spacing: -2rem;
+    /* not sure if minus is allowed */
+    padding-block-end: 0;
+}
+
+#small-title3 {
+    font-weight: bold;
+    font-family: 'Rubik Mono One';
+    font-size: 2.3rem;
+    color: #ffd57b;
+    -webkit-text-stroke: 0.1px #442f2a;
+    text-align: center;
+    line-height: 2rem;
+    /* not sure if minus is allowed */
+    padding-block-end: 0;
+}
+
+#small-title4 {
+    font-weight: bold;
+    font-family: 'Rubik Mono One';
+    font-size: 2rem;
+    color: #ffd57b;
+    -webkit-text-stroke: 0.1px #442f2a;
+    text-align: center;
+    line-height: 1.7rem;
+    word-spacing: 0;
+    /* not sure if minus is allowed */
+    padding-block-end: 0;
+}
+
+#italic-small-title {
+    font-weight: bold;
+    font-family: 'Nunito';
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: lighter;
+    color: #f8a4b6;
+    -webkit-text-stroke: 0.1px #442f2a;
+    text-align: center;
+    padding-block-end: 1rem;
+}
+
+#italic-small-title2 {
+    font-weight: bold;
+    font-family: 'Nunito';
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: lighter;
+    color: #f8a4b6;
+    -webkit-text-stroke: 0.1px #442f2a;
+    text-align: center;
+    padding-block-end: 0.5rem;
+}
+
+#italic-small-title3 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    font-family: 'Nunito';
+    font-style: italic;
+    font-weight: lighter;
+    color: #f8a4b6;
+    -webkit-text-stroke: 0.1px #442f2a;
+    text-align: center;
+    padding-block-end: 0.5rem;
+}
+
+#italic-small-title4 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-family: 'Nunito';
+    font-style: italic;
+    font-weight: lighter;
+    color: #f8a4b6;
+    -webkit-text-stroke: 0.1px #442f2a;
+    text-align: center;
+    padding-block-end: 0.5rem;
+}
 
 p {
     padding-block-end: 1rem;
@@ -202,21 +327,36 @@ p {
     line-height: 1.5rem;
 }
 
+.margin {
+    margin: 1rem;
+}
+
 blockquote {
-    font-family: 'Nunito';
+    font-family: 'Rubik Mono One';
+    word-spacing: 0px;
     font-weight: bold;
-    background-color: #f8a4b6;
-    border-radius: 1rem;
-    padding: 1rem;
+    /* background-color: #f8a4b6; */
+    padding-block: 1rem; 
+    /* border-radius: 1rem; */
     text-wrap: pretty;
     margin-block-end: 1rem;
-    border: 0.1rem #442f2a;
-    border-style: solid;
+    /* border: 0.3rem #442f2a; */
+    /* border-style: solid; */
+    margin: 1rem;
+    justify-content: center;
+    border-block-start: solid  #ffd57b 0.1rem;
+    border-block-end: solid  #ffd57b 0.1rem;
 }
 
 .blockquote {
     font-family: 'Nunito';
-    margin-block-end: 3rem;
+    margin-block-end: 4rem;
+    padding-inline-start: 1rem;
+    font-family: 'Rubik Mono One';
+    color: #f8a4b6;
+}
 
+#space-after {
+    /* margin-block-end: 4rem; */
 }
 

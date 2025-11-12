@@ -10,7 +10,7 @@ header {
     background-size: cover;
     background-blend-mode: hard-light;
     color: #442f2a;
-    padding-block: 2rem;
+    padding-block: 4rem;
 }
 
 article {
@@ -21,13 +21,15 @@ article {
     color: #442f2a;
     font-weight: lighter;
     font-family: 'Nunito';
-}
+    font-size: 0.75rem;
 
+}
+/* 
 p {
     padding-block-end: 1rem;
     font-family: 'Nunito';
     text-wrap: pretty;
-}
+} */
 
 h1 {
     font-size: 2rem;
@@ -81,15 +83,32 @@ h1 {
     background-color: #ffd57b;
 }
 
-#title {
+/* #title {
     margin-block-start: 1rem;
+} */
+
+h2 {
+    font-family: 'Rubik Mono One';
+    font-size: 4rem;
+    justify-items: center;
+    text-align: center;
+    line-height: 3.3rem;
+    color: #442f2a;
 }
 
+#italic {
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Nunito';
+    color: #f8a4b6;
+}
+
+/* actual code
 h2 {
     font-family: 'Rubik Mono One';
     font-size: 2.7rem;
     color: #442f2a;
-}
+} */
 
 #h2-two {
     padding-inline-start: 2rem;
@@ -102,28 +121,102 @@ h3 {
     margin-block-end: 1rem;
 }
 
-#date {
+/* #date {
     font-family: 'Nunito';
 }
 
 #author {
     font-family: 'Nunito';
-}
+} */
 
 #pad {
     text-align: center;
 }
 
-#small-title {
+/* #small-title {
     font-weight: bold;
-}
+} */
 
-blockquote {
+/* blockquote {
     padding-inline-start: 0.5rem;
     font-family: 'Nunito';
     padding-block-end: 2rem;
-}
+} */
 
 ol {
     padding-block-end: 1rem;
 }
+
+
+
+/* added code for original article  */
+
+h2 {
+    font-family: 'Rubik Mono One';
+    font-size: 4rem;
+    justify-items: center;
+    text-align: center;
+    line-height: 3.3rem;
+    color: #442f2a;
+}
+
+#italic {
+    font-style: italic;
+    font-family: 'Nunito';
+    color: #f8a4b6;
+}
+
+#title {
+    margin-block: 2rem;
+
+}
+
+#author {
+    font-family: 'Nunito';
+    text-align: center;
+}
+
+
+#date {
+    font-family: 'Nunito';
+    text-align: center;
+    margin-block-end: 1rem;
+}
+
+#small-title {
+    font-weight: bold;
+    font-family: 'Rubik Mono One';
+    font-size: 2rem;
+    line-height: 1.75rem;
+    color: #ffd57b;
+    -webkit-text-stroke: 0.1px #442f2a;
+    text-align: left;
+    font-kerning:auto;
+}
+
+
+p {
+    padding-block-end: 1rem;
+    font-family: 'Nunito';
+    text-wrap: pretty;
+    line-height: 1.5rem;
+}
+
+blockquote {
+    font-family: 'Nunito';
+    font-weight: bold;
+    background-color: #f8a4b6;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-wrap: pretty;
+    margin-block-end: 1rem;
+    border: 0.1rem #442f2a;
+    border-style: solid;
+}
+
+.blockquote {
+    font-family: 'Nunito';
+    margin-block-end: 3rem;
+
+}
+

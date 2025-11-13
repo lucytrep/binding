@@ -2,11 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Sora:wght@100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Sora:wght@100..800&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
-
-
-html {
-    font-family: 'Boldonse';
-}
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fira+Code:wght@300..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kristi&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Neonderthaw&family=Overpass+Mono:wght@300..700&family=Poiret+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sono:wght@200..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
 
 header {
     align-content: center;
@@ -14,8 +10,8 @@ header {
     /* background-image: url("../direction-3/pattern.jpg");
     background-size: cover;
     background-blend-mode: hard-light; */
-    background-color: #f9e484;
-    color: #442f2a;
+    background-color: #041cd7;
+    color: #f9f4eb;
     /* padding-block: 3rem; */
     max-width: 100%;
 
@@ -26,9 +22,16 @@ header {
 
 
 #sub-header{
-    color: #442f2a;
+    color: #f9f4eb;
     /* padding-block-end: 2rem; */
+    font-size: 1rem;
+    font-weight: 100;
+    justify-content: center;
+    font-family: 'DM Mono';
     padding-block-end: 2rem;
+    color: #eaff00;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
 
 }
 
@@ -37,14 +40,24 @@ nav {
 }
 
 p {
-    color: #442f2a;;
-    font-family: 'Sora';
+    color: rgb(15, 15, 15);
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+    padding-block-end: 1rem;
+
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-wrap: pretty;
-    font-weight: 200;
+    font-weight: 500;
+    font-family: 'DM Mono';
+    text-align: center;
+    padding-block-start: 1rem;
+    color: #ff4000;
+    /* margin-block-start: 2rem; */
+    /* margin-inline-start: 2rem; */
 
     @media (width > 800px) {
 	font-size: 5rem;
@@ -55,10 +68,12 @@ h1 {
 	}
 }
 
+
 .main-nav {
     display: flex;
     justify-content: center;
     margin-inline: 1rem;
+    font-family: 'DM Mono';
 }
 
 .main-nav a {
@@ -66,6 +81,7 @@ h1 {
     padding: 0.75rem 0.75rem;
     display: block;
     text-align: center;
+    font-family: 'DM Mono';
 
     @media (width > 800px) {
 	font-size: 1rem;
@@ -73,9 +89,9 @@ h1 {
 	}
 }
 
-li {
+/* li {
     font-family: 'Sora';
-}
+} */
 
 #title {
     /* background-color: #a7cf95; */
@@ -83,53 +99,69 @@ li {
     padding-inline: 1rem;
 }
 
-#date {
-    font-size: 1rem;
-    padding-block-start: 0.5rem;
+h2 {
+    font-size: 4.5rem;
+    font-family: 'DM Mono';
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: #041cd7;
 }
 
-h2 {
-    font-size: 1rem;
-    line-height: 1.75rem;
-    padding-block-start: 0.5rem;
-    color: #56933a;
+h3 {
+    color: #041cd7;
+    font-family: 'DM Mono';
+    font-size: 2rem;
+    font-weight: 500;
+    padding-block-end: 0.5rem;
+    padding-block-start: 1rem;
+    word-spacing: 0;
+}
+
+#italic {
+    color: #ff4000;
+    font-size: 3.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 100;
+    margin-block-end: 0.5rem;
+    padding-block: 0.5rem;
 }
 
 /* author and date */
 #authors { 
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     padding-block-start: 0.75rem;
+    color: #041cd7;
+    font-family: 'DM Mono';
 }
 
 #date {
-    font-size: 0.75rem;
-    font-family: 'Zilla Slab Highlight';
+    font-size: 0.85rem;
+    padding-block-start: 0.5rem;
+    font-family: 'DM Mono';
+    padding-block-end: 1rem;
+    color: #041cd7;
 }
 
 /* dotted border */
-#title {
-    margin-block-end: 1rem;
-    border-block-end: dotted;
-    border-block-end-width: 0.5rem;
+/* #title {
+    margin-block-end: 1rem; */
+    /* border-block-end: dotted; */
+    /* border-block-end-width: 0.5rem;
     border-block-end-color: #56933a;;
     border-inline-end: 5rem;
-}
+} */
 
 #text-container {
     padding-inline: 1rem;
 
-    p {
+    /* p {
         padding-block-end: 1rem;
         font-size: 0.85rem;
         text-wrap: pretty;
         line-height: 1.25rem;
-    }
+    } */
 }
-
-h3 {
-    padding-block-end: 1rem;
-}
-
 /* citations at the bottom */
 .citations {
     display: grid;
@@ -146,11 +178,74 @@ h3 {
 /* items and what they look like */
 .item {
     align-content: center;
-    padding-block: 0.5rem;
-    padding-inline: 0.5rem;
     font-size: 0.5rem;
+    line-height: 1rem;
     justify-content: center;
-    background-color: #f9edbb;
-    border: 1px solid #442f2a;
-    text-align: center;
+    text-align: left;
+    max-width: fit-content;
     }
+
+.wingding {
+    padding-block: 1rem;
+    border-radius: 1rem;
+
+    background-color: #eaff00;
+    color: #ff4000;
+    text-align: center;
+    font-family: "Wingdings", "Wingdings 2", "Wingdings 3", sans-serif;
+    font-size: 5rem;
+}
+
+blockquote {
+    color: #f9f4eb;
+    text-wrap: pretty;
+    font-family: 'DM Mono';
+    background-color: #ff4000;
+    line-height: 1.5rem;
+}
+
+.blockquote {
+    border-block-end: 0.1rem solid #041cd7;
+    margin-block-end: 1rem;
+}
+
+.paul {
+    font-family: 'DM Mono';
+    font-size: 1rem;
+    padding-block-start: 1rem;
+    margin-block-end: 2rem;
+
+}
+
+#code {
+    margin-block-end: 2rem;
+}
+
+.footer {
+    background-color: #041cd7;
+}
+
+.footer-item1 {
+    font-size: 1.5rem;
+    text-align: left;
+    padding-inline-start: 1rem;
+    word-spacing: 0px;
+    line-height: 1.5rem;
+    color: #eaff00;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-block-end: 0.5rem;
+    padding-block-start: 1rem;
+    
+}
+.footer-item2 {
+    font-size: 3rem;
+    text-align: left;
+    word-spacing: 0px;
+    line-height: 2.5rem;
+    color: #ff4000;
+    font-family: 'DM Mono';
+    padding-inline-start: 1rem;
+    padding-block-end: 1rem;
+
+}

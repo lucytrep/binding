@@ -42,8 +42,8 @@ nav {
 p {
     color: rgb(15, 15, 15);
     font-family:'Times New Roman', Times, serif;
-    line-height: 1.7rem;
-    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
     padding-block-end: 1rem;
 
 }
@@ -110,11 +110,18 @@ h2 {
 h3 {
     color: #041cd7;
     font-family: 'DM Mono';
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
-    padding-block-end: 0.5rem;
+    padding-block-end: 1rem;
     padding-block-start: 1rem;
     word-spacing: 0;
+    line-height: 2rem;
+    text-wrap: pretty;
+}
+
+.conference {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
 }
 
 #italic {
@@ -202,6 +209,9 @@ blockquote {
     font-family: 'DM Mono';
     background-color: #ff4000;
     line-height: 1.5rem;
+    margin-block-start: 1rem;
+    padding-inline: 1rem;
+    padding-block: 1rem;
 }
 
 .blockquote {
@@ -214,15 +224,26 @@ blockquote {
     font-size: 1rem;
     padding-block-start: 1rem;
     margin-block-end: 2rem;
-
 }
 
 #code {
     margin-block-end: 2rem;
 }
 
-.footer {
+footer {
     background-color: #041cd7;
+}
+
+#sub-footer {
+    text-align: center;
+    color: #eaff00;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-block-start: 1rem;
+}
+
+a{
+    color: #f9f4eb;
 }
 
 .footer-item1 {

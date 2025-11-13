@@ -363,6 +363,7 @@ blockquote {
     border-inline-start: 0.5rem solid #da4773;
     padding-inline-start: 1rem;
     margin-block-start: 2rem;
+    line-height: 1.5rem;
 }
 
 .paul {
@@ -373,4 +374,12 @@ blockquote {
 
 .code {
     margin-block-end: 2.5rem;
+}
+
+.link {
+    background-color: #0f1617;
+    border: 0.1rem solid #fdf9e6;
+    border-radius: 2rem;
+    text-align: center;
+    padding-block: 0.5rem;
 }

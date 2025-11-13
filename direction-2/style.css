@@ -10,7 +10,7 @@ header {
     background-size: cover;
     background-blend-mode: hard-light;
     color: #442f2a;
-    padding-block: 4rem;
+    padding-block: 3rem;
 }
 
 /* article {
@@ -162,7 +162,7 @@ h3 {
     margin-inline-start: 1rem;
     word-spacing: 0px;
     line-height: 1.5rem;
-    padding-block-end: 3rem;
+    /* padding-block-end: 3rem; */
 
 
     @media (width > 800px) {
@@ -361,6 +361,7 @@ blockquote {
     justify-content: center;
     border-block-start: solid  #ffd57b 0.1rem;
     border-block-end: solid  #ffd57b 0.1rem;
+    color: #442f2a;
 }
 
 .blockquote {
@@ -371,7 +372,22 @@ blockquote {
     color: #f8a4b6;
 }
 
-#space-after {
-    /* margin-block-end: 4rem; */
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik Mono One';
 }
 
+.footer-links a {
+    font-size: 0.7rem;
+    padding: 2rem 2rem;
+    display: block;
+    text-align: center;
+    font-family: 'Rubik Mono One';
+
+    @media (width > 800px) {
+	font-size: 1rem;
+    padding: 1rem 1rem;
+	}
+}

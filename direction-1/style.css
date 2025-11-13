@@ -383,3 +383,13 @@ blockquote {
     text-align: center;
     padding-block: 0.5rem;
 }
+
+a.link01 {
+    background: #2855a3;
+    margin-inline: 0.3rem;
+    padding-inline: 0.2rem;
+}
+
+a.link01:hover {
+  color: #d1a33a;
+}

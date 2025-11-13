@@ -203,6 +203,11 @@ h2 {
     margin-block-end: 1rem;
 }
 
+#space-after2 {
+    padding-block-end: 1rem;
+    margin-block-end: 5rem;
+}
+
 #italic {
     font-style: italic;
     font-family: 'Nunito';
@@ -390,4 +395,8 @@ blockquote {
 	font-size: 1rem;
     padding: 1rem 1rem;
 	}
+}
+
+.link01{
+    border-block-end: 0.2rem solid #f8a4b6;
 }

@@ -270,3 +270,8 @@ a{
     padding-block-end: 1rem;
 
 }
+
+.link01 {
+    text-decoration: underline;
+    color: #041cd7;
+}

@@ -379,9 +379,16 @@ blockquote {
 .link {
     background-color: #0f1617;
     border: 0.1rem solid #fdf9e6;
-    border-radius: 2rem;
-    text-align: center;
+    opacity: 80%;
     padding-block: 0.5rem;
+    padding-inline: 1rem;
+    position: fixed;
+    bottom: 1.5rem; 
+    right: 1.5rem;
+    align-items: right;  
+    z-index: 1000;
+    justify-content: center;
+    border-radius: 50%;
 }
 
 a.link01 {

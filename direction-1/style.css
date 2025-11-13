@@ -355,3 +355,22 @@ li {
 #code {
     font-family: monospace;
 }
+
+blockquote {
+    font-weight: 300;
+    font-style: italic;
+    text-wrap: pretty;
+    border-inline-start: 0.5rem solid #da4773;
+    padding-inline-start: 1rem;
+    margin-block-start: 2rem;
+}
+
+.paul {
+    padding-inline-start: 1rem;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+}
+
+.code {
+    margin-block-end: 2.5rem;
+}

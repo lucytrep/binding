@@ -344,6 +344,7 @@ li {
     padding: 1rem 1rem;
     display: block;
     text-align: center;
+    text-decoration: none;
 
     @media (width > 800px) {
 	font-size: 1rem;

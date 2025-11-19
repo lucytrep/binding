@@ -61,3 +61,7 @@ blockquote {
     display:inline-block;
     margin-block-end: 0.5rem;
 }
+.active {
+    background-color: #da4773;
+    color: #fdf9e6;
+}

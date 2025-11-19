@@ -1,5 +1,7 @@
 #top {
     color: #fdf9e6;
+    font-size: 1.3rem;
+    text-wrap: pretty;
 }
 
 .one {
@@ -13,4 +15,5 @@ a.link01 {
 blockquote {
     border-inline-start: 0.09rem dashed #da4773;
 }
+
 

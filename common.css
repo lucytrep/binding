@@ -191,14 +191,57 @@ h1 {
     font-size: 2rem;
     /* margin-block-start: 1rem; */
     /* color: #2855a3; */
-    padding-block-start: 1rem;
-    text-align: left;
-    padding-inline-start: 1rem;
+    text-align: center;
+    background-color: #0f1617;
+    border-radius: 0 0 0.85rem 0.85rem;
+    padding: 1rem;
+    border-style: dashed;
+
+
 
     @media (min-width: 800px) {
     font-size: 5rem;
     }
 }
+
+.circles {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.circle {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 0.75rem;
+}
+.red { background: #ff0000; }
+.green { background: #f2a93c; }
+.blue { background: #008000; }
+
+.top-bar {
+    background-color: #fdf9e6;
+    padding-inline: 0.65rem;
+    margin-block-start: 1rem;
+    padding-block: 0.5rem;
+    margin-inline: 1rem;
+    border-radius: 1rem 1rem 0 0;
+    /* border-style: dashed; */
+}
+
+.screen {
+    border-radius: 0 0 1rem 1rem;
+    /* border: solid #fdf9e6 0.3rem; */
+    background-color: #fdf9e6;
+    padding-inline: 0.25rem;
+    padding-block-end: 0.25rem;
+    margin-inline: 1rem;
+}
+
+/* .window {
+    background-color: #fdf9e6;
+    margin-inline: 1rem;
+    border-radius: 1rem;
+} */
 
 /* #top2 {
     font-size: 2rem;
@@ -278,7 +321,6 @@ a.active {
     font-size: 0.9rem;
   }
 }
-
 
 .text-container {
     display: grid;

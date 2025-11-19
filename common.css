@@ -275,6 +275,7 @@ h2 {
     font-weight: bold;
     margin-block: 1rem;
     padding: 0.75rem;
+    text-wrap: pretty;
     /* border-radius: 5rem; */
 
     @media (width > 800px) {
@@ -394,15 +395,14 @@ blockquote {
     text-wrap: pretty;
     /* border-inline-start: 0.5rem solid #da4773; */
     padding-inline-start: 1rem;
-    margin-block-start: 2rem;
     line-height: 1.5rem;
     margin-block-end: 1rem;
+    margin-inline-start: 1rem;
 }
 
-.paul {
+.person {
     padding-inline-start: 1rem;
     margin-block-start: 1rem;
-    margin-block-end: 1rem;
 }
 
 .code {

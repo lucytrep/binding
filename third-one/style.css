@@ -85,7 +85,7 @@ a.link01 {
 }
 
 blockquote {
-    border-inline-start: 0.09rem dashed #da4773;
+    border-inline-start: 0.5rem solid #da4773;
 }
 
 .section-title {
@@ -94,4 +94,16 @@ blockquote {
 
 .link {
     background-color: #31142b;
+}
+
+#small-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: #da4773;
+    border: dashed #31142b 0.1rem;
+    padding-inline: 0.5rem;
+    justify-content: center;
+    padding-block: 0.5rem;
+    display:inline-block;
+    margin-block-end: 0.5rem;
 }

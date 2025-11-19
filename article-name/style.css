@@ -1,0 +1,15 @@
+#top {
+    color: #fdf9e6;
+}
+
+.one {
+    background-color: #2855a3; 
+}
+
+a.link01 {
+    background: #2855a3;
+}
+
+blockquote {
+    border-inline-start: 0.09rem dashed #2855a3;
+}

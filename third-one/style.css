@@ -62,3 +62,36 @@
     padding-block-end: 0.25rem;
     margin-inline: 1rem;
 }
+
+body {
+    background-color: #31142b;
+}
+
+#top {
+    color: #fdf9e6;
+    font-size: 1.3rem;
+    text-wrap: pretty;
+    background-color: #31142b;
+}
+
+.one {
+    background-color: #da4773;
+    border: dashed #31142b 0.1rem;
+}
+
+a.link01 {
+    background:#da4773;
+    border-block: #31142b dashed 0.1rem;
+}
+
+blockquote {
+    border-inline-start: 0.09rem dashed #da4773;
+}
+
+.section-title {
+    background-color: #31142b;
+}
+
+.link {
+    background-color: #31142b;
+}

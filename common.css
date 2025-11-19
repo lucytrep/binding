@@ -427,7 +427,7 @@ a.link01 {
     /* background: #2855a3; */
     margin-inline: 0.3rem;
     padding-inline: 0.2rem;
-    border-block-end:#0f1617 dashed 0.1rem;
+    border-block:#0f1617 dashed 0.1rem;
 }
 
 a.link01:hover {

@@ -1,19 +1,33 @@
+body {
+    background-color: #091428;
+}
+
 #top {
     color: #fdf9e6;
     font-size: 1.3rem;
     text-wrap: pretty;
+    background-color:  #091428;
 }
 
 .one {
-    background-color: #da4773; 
+    background-color: #34549e;
+    border: dashed  #091428 0.1rem;
 }
 
 a.link01 {
-    background:#da4773;
+    background:#34549e;
+    border-block:  #091428 dashed 0.1rem;
 }
 
 blockquote {
-    border-inline-start: 0.09rem dashed #da4773;
+    border-inline-start: 0.09rem dashed #34549e;
 }
 
+.section-title {
+    background-color:  #091428;
+}
+
+.link {
+    background-color: #0f2141;
+}
 

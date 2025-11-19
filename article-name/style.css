@@ -3,13 +3,13 @@
 }
 
 .one {
-    background-color: #2855a3; 
+    background-color: #7c7c7c; 
 }
 
 a.link01 {
-    background: #2855a3;
+    background: #7c7c7c;
 }
 
 blockquote {
-    border-inline-start: 0.09rem dashed #2855a3;
+    border-inline-start: 0.75rem dashed #7c7c7c;
 }

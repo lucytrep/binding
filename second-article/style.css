@@ -20,7 +20,7 @@ a.link01 {
 }
 
 blockquote {
-    border-inline-start: 0.09rem dashed #34549e;
+    border-inline-start: 0.5rem solid #34549e;
 }
 
 .section-title {

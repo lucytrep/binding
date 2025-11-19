@@ -13,75 +13,25 @@
     padding-block-start: 0.15rem;
 }
 
-#top {
-    font-size: 2rem;
-    /* margin-block-start: 1rem; */
-    /* color: #2855a3; */
-    text-align: center;
-    background-color: #0f1617;
-    border-radius: 0 0 0.85rem 0.85rem;
-    padding: 1rem;
-    border-style: dashed;
-
-
-
-    @media (min-width: 800px) {
-    font-size: 5rem;
-    }
-}
-
-.circles {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.circle {
-  width: 0.75rem;
-  height: 0.75rem;
-  border-radius: 0.75rem;
-}
-.red { background: #ff0000; }
-.green { background: #f2a93c; }
-.blue { background: #008000; }
-
-.top-bar {
-    background-color: #fdf9e6;
-    padding-inline: 0.65rem;
-    margin-block-start: 1rem;
-    padding-block: 0.5rem;
-    margin-inline: 1rem;
-    border-radius: 1rem 1rem 0 0;
-    /* border-style: dashed; */
-}
-
-.screen {
-    border-radius: 0 0 1rem 1rem;
-    /* border: solid #fdf9e6 0.3rem; */
-    background-color: #fdf9e6;
-    padding-inline: 0.25rem;
-    padding-block-end: 0.25rem;
-    margin-inline: 1rem;
-}
-
 body {
-    background-color: #31142b;
+    background-color: #240f1f;
 }
 
 #top {
     color: #fdf9e6;
     font-size: 1.3rem;
     text-wrap: pretty;
-    background-color: #31142b;
+    background-color: #240f1f;
 }
 
 .one {
     background-color: #da4773;
-    border: dashed #31142b 0.1rem;
+    border: dashed #240f1f 0.1rem;
 }
 
 a.link01 {
     background:#da4773;
-    border-block: #31142b dashed 0.1rem;
+    border-block: #240f1f dashed 0.1rem;
 }
 
 blockquote {
@@ -89,18 +39,18 @@ blockquote {
 }
 
 .section-title {
-    background-color: #31142b;
+    background-color: #240f1f;
 }
 
 .link {
-    background-color: #31142b;
+    background-color: #240f1f;
 }
 
 #small-title {
     font-size: 1.5rem;
     font-weight: 500;
     background-color: #da4773;
-    border: dashed #31142b 0.1rem;
+    border: dashed #240f1f 0.1rem;
     padding-inline: 0.5rem;
     justify-content: center;
     padding-block: 0.5rem;

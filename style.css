@@ -25,3 +25,50 @@ a.link01 {
     text-align: left;
 }
 
+.legend {
+
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    li {
+        padding: 1rem;
+        text-align: center;
+        color:  #fdf9e6;
+    }
+
+    #item1 {
+    background: #518034; 
+}
+
+    #item2 {
+        background: #34549e;
+}
+
+    #item3 {
+        background: #da4773;
+}
+
+    @media (width > 800px) {
+
+        ul {
+            flex-direction: row;
+        }
+
+        li {
+            flex: 1;
+            padding: 1rem 0;
+        }
+    }
+
+}
+
+#legend-text {
+    margin-inline-start: 1rem;
+    margin-block-end: 1rem;
+}
+
+/* footer {
+    margin-block-start: 2rem;
+} */

@@ -27,7 +27,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    list-style: none;
     background-color: #fdf9e6;
     color: var(--bg-color);
     padding-block: 0.5rem 0;
@@ -40,7 +39,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    list-style: none;
     background-color: #fdf9e6;
     color: var(--bg-color);
     padding-block: 0.5rem 0;
@@ -116,7 +114,7 @@ p {
     padding-block-end: 1rem;
     border-block-end: #0f1617 dashed 0.1rem;
 
-    ol {
+    ul{
         display: flex;
         justify-content: center;
         gap: 0.5rem 1rem;
@@ -328,7 +326,7 @@ footer {
         font-size: 1rem;
     }
 
-    ol {
+    ul {
     display: flex;
     justify-content: space-between;
 }

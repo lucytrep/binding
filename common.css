@@ -225,6 +225,8 @@ h1 {
     background: #008000; 
 }
 
+/* MAKE ANOTHER VIEWPORT SIZE FOR AROUND 1200 PX */
+
 .top-bar {
     background-color: #fdf9e6;
     padding-inline: 0.65rem;
@@ -264,7 +266,7 @@ h2 {
 
     @media (width > 800px) {
 	font-size: 2rem;
-    margin-block: 0rem;
+    margin-block: 1rem;
 	}
 
 }
@@ -301,7 +303,7 @@ h2 {
 	grid-template-columns: 0.5fr 1fr;
     /* margin-inline-end: 2rem; */
     margin-block: 2rem;
-    /* align-items: flex-start; */
+    align-items: flex-start;
 
     p {
         font-size: 1rem;

@@ -9,6 +9,7 @@
     @media (width > 800px) {
 	font-size: 2.35rem;
     text-wrap: balance;
+    line-height: 3rem;
 	}
 }
 
@@ -22,7 +23,7 @@
     padding-block-start: 0.15rem;
 
     @media (width > 800px) {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
     text-wrap: balance;
     padding-block-start: 0rem;
     line-height: 1.75rem;

@@ -7,6 +7,7 @@ body {
     background-color: #121d0c;
 }
 
+
 .one {
     background-color: #518034; 
 }
@@ -30,4 +31,8 @@ blockquote {
 .active {
     background-color: #518034;
     color: #fdf9e6;
+}
+
+#bold {
+    text-decoration: underline 0.2rem #518034;
 }

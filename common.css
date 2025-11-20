@@ -196,10 +196,9 @@ h1 {
     padding: 1rem;
     border-style: dashed;
 
-
-
     @media (min-width: 800px) {
-    font-size: 5rem;
+    font-size: 4rem;
+    line-height: 3.75rem;
     }
 }
 
@@ -233,6 +232,11 @@ h1 {
     padding-block: 0.5rem;
     margin-inline: 1rem;
     border-radius: 1rem 1rem 0 0;
+
+    @media (min-width: 800px) {
+    margin-block-start: 3rem;
+    margin-inline: 7rem;
+    }
 }
 
 .screen {
@@ -241,6 +245,13 @@ h1 {
     padding-inline: 0.25rem;
     padding-block-end: 0.25rem;
     margin-inline: 1rem;
+
+    @media (min-width: 800px) {
+    padding-inline: 0.25rem;
+    padding-block-end: 0.25rem;
+    margin-inline: 7rem;
+    margin-block-end: 3rem;
+    }
 }
 
 h2 {
@@ -263,16 +274,16 @@ h2 {
 
     @media (width > 800px) {
 	font-size: 1rem;
+    text-wrap: balance;
 	}
 }
 
 .list-items {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  padding-inline: 1rem;
-  padding-block: 1rem;
-  
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-inline: 1rem;
+    padding-block: 1rem;
 
   li {
     text-decoration: none;
@@ -288,9 +299,9 @@ h2 {
 
     @media (width > 800px) {
 	grid-template-columns: 0.5fr 1fr;
-    margin-inline-end: 2rem;
-    margin-block: 5rem;
-    align-items: flex-start;
+    /* margin-inline-end: 2rem; */
+    margin-block: 2rem;
+    /* align-items: flex-start; */
 
     p {
         font-size: 1rem;
@@ -401,4 +412,10 @@ a.link01:hover {
         line-height: 3.3rem;
     }
 
+}
+
+#bold {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-block-end: 1rem;
 }

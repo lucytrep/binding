@@ -11,11 +11,28 @@ body {
     font-size: 1.3rem;
     text-wrap: pretty;
     background-color:  #091428;
+
+    @media (width > 800px) {
+	font-size: 2.15rem;
+    text-wrap: balance;
+    line-height: 2.5rem;
+	}
 }
 
 .one {
     background-color: #34549e;
     border: dashed  #091428 0.1rem;
+
+    @media (width > 800px) {
+	font-size: 0.75rem;
+    text-wrap: balance;
+	}
+}
+
+.section-title {
+    @media (width > 800px) {
+	margin-inline-end: 1rem;
+	}
 }
 
 a.link01 {

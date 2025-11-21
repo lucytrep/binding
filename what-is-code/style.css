@@ -2,6 +2,20 @@ body {
     background-color: #121d0c;
 }
 
+.home svg {
+    width: 2rem;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    flex: 0 0 auto;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 #top {
     color: #fdf9e6;
     background-color: #518034;
@@ -35,3 +49,4 @@ blockquote {
 #bold {
     text-decoration: underline 0.2rem #518034;
 }
+

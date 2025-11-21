@@ -4,6 +4,20 @@ body {
     background-color: #091428;
 }
 
+.home svg {
+    width: 2rem;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    flex: 0 0 auto;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 #top {
     color: #fdf9e6;
     font-size: 1.5em;
@@ -55,3 +69,4 @@ blockquote {
     background-color: #34549e;
     color: #fdf9e6;
 }
+

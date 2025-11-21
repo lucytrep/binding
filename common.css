@@ -73,6 +73,19 @@ html {
         border-radius: 1rem 1rem 0 0;
         color: #fdf9e6;
     }
+
+    .home {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+        svg {
+            width: 2rem;
+            height: auto;
+            display: inline-block;
+            vertical-align: middle;
+        }
 }
 
 .active {

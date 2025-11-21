@@ -16,11 +16,22 @@ html {
     color: #fdf9e6;
 }
 
-header {
+/* header {
     text-align: center;
-    background-color: rgb(255, 94, 0);
+    background-color: #da4773;
     display: block;
 
+} */
+
+.home {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem; 
+}
+
+.home svg {
+    height: auto;
+    display: block;
 }
 
 /* CAN I MAKE THE NAV LOOK LIKE AN IPHONE IN PHONE SHOT */
@@ -109,7 +120,7 @@ p {
     align-items: center;
     width: 100%;
     min-height: 60vh;
-    background-image: url("/gif.gif");
+    background-image: url("../gif.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

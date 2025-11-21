@@ -120,7 +120,7 @@ p {
     align-items: center;
     width: 100%;
     min-height: 60vh;
-    background-image: url("../Binding/gif.gif");
+    background-image: url("../gif.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -214,6 +214,7 @@ h1 {
     font-size: 4rem;
     line-height: 3.75rem;
     }
+
 }
 
 .circles {
@@ -253,6 +254,14 @@ h1 {
     margin-block-start: 3rem;
     margin-inline: 7rem;
     }
+
+    @media (min-width: 1000px) {
+    margin-inline: 10rem;
+    }
+
+    @media (min-width: 1300px) {
+    margin-inline: 15rem;
+    }
 }
 
 .screen {
@@ -268,6 +277,14 @@ h1 {
     margin-inline: 7rem;
     margin-block-end: 3rem;
     }
+
+    @media (min-width: 1000px) {
+    margin-inline: 10rem;
+    }
+
+    @media (min-width: 1300px) {
+    margin-inline: 15rem;
+    }
 }
 
 h2 {
@@ -280,7 +297,7 @@ h2 {
 
     @media (width > 800px) {
 	font-size: 2rem;
-    margin-block: 1rem;
+    /* margin-block: 1rem; */
 	}
 
 }
@@ -316,18 +333,13 @@ h2 {
     @media (width > 800px) {
 	grid-template-columns: 0.5fr 1fr;
     /* margin-inline-end: 2rem; */
-    margin-block: 2rem;
-    margin-inline-end: 2rem;
+    /* margin-block: 2rem;
+    margin-inline-end: 2rem; */
     align-items: flex-start;
 
     p {
         font-size: 1rem;
     }
-
-	}
-
-    @media (width > 1000px) {
-    margin-inline-end: 6rem;
 
     p {
         font-size: 1rem;

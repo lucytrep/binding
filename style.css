@@ -46,7 +46,7 @@ a.link01 {
     position: sticky;
     text-align: left;
     background-color: #0f1617;
-    padding-block-start: 0.5rem;
+    /* padding-block-start: 0.5rem; */
     padding-block-end: 0.5rem;
 
     @media (width > 800px) {

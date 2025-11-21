@@ -115,6 +115,8 @@ p {
     background-repeat: no-repeat;
     padding-block-end: 1rem;
     border-block-end: #0f1617 dashed 0.1rem;
+    border-block-start: #0f1617 dashed 0.1rem;
+
 
     ul{
         display: flex;

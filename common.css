@@ -120,7 +120,7 @@ p {
     align-items: center;
     width: 100%;
     min-height: 60vh;
-    background-image: url("gif.gif");
+    background-image: url("/gif.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -438,7 +438,7 @@ a.link01:hover {
 }
 
 .project {
-    padding-block: 1rem;
+    padding-block: 3rem;
 
     .eyebrow {
         font-size: 0.55rem;
@@ -452,6 +452,10 @@ a.link01:hover {
         font-style: normal;
         font-size: 4rem;
         line-height: 3.3rem;
+    }
+
+    @media (width > 800px) {
+    padding-block-start: 5rem;
     }
 
 }

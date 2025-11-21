@@ -6,9 +6,10 @@ body {
 
 #top {
     color: #fdf9e6;
-    font-size: 1.3rem;
-    text-wrap: pretty;
-    background-color:  #091428;
+    font-size: 1.5em;
+    text-wrap: balanced;
+    padding-inline: 1rem;
+    background-color:  #34549e;
 
     @media (width > 800px) {
 	font-size: 2.15rem;

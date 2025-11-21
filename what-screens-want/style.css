@@ -3,11 +3,13 @@
 .third-title {
     font-size: 1.5rem;
     text-wrap: balanced;
+    line-height: 2rem;
+
 
     @media (width > 800px) {
-	font-size: 2.35rem;
+	font-size: 2.5rem;
     text-wrap: balance;
-    line-height: 3rem;
+    line-height: 0rem;
 	}
 }
 
@@ -16,15 +18,17 @@
     font-weight: 400;
     font-style: italic;
     text-wrap: pretty;
-    padding: 0;
-    margin: 0;
-    padding-block-start: 0.15rem;
+    padding-inline: 2rem;
+    margin:0;
+    padding-block:0;
+    /* padding-block-start: 0.15rem; */
 
     @media (width > 800px) {
-	font-size: 1.3rem;
+	font-size: 1.5rem;
     text-wrap: balance;
-    padding-block-start: 0rem;
+    /* padding-block-start: 0rem; */
     line-height: 1.75rem;
+    margin-block-start: 1.5rem;
 	}
 }
 
@@ -34,9 +38,9 @@ body {
 
 #top {
     color: #fdf9e6;
-    font-size: 1.3rem;
+    font-size: zrem;
     text-wrap: pretty;
-    background-color: #240f1f;
+    background-color: #da4773;
 }
 
 

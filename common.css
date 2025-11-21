@@ -120,7 +120,7 @@ p {
     align-items: center;
     width: 100%;
     min-height: 60vh;
-    background-image: url("../gif.gif");
+    background-image: url("gif.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -327,7 +327,7 @@ h2 {
 	}
 
     @media (width > 1000px) {
-    margin-inline-end: 4rem;
+    margin-inline-end: 6rem;
 
     p {
         font-size: 1rem;

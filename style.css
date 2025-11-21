@@ -35,6 +35,10 @@ a.link01 {
 .section-title {
     position: static;
     text-align: left;
+
+    @media (width > 800px) {
+    text-align: right;
+	}
 }
 
 .legend {

@@ -23,6 +23,8 @@ header {
 
 }
 
+/* CAN I MAKE THE NAV LOOK LIKE AN IPHONE IN PHONE SHOT */
+
 .main-nav {
     display: flex;
     justify-content: space-between;
@@ -107,7 +109,7 @@ p {
     align-items: center;
     width: 100%;
     min-height: 60vh;
-    background-image: url("../direction-1/gif.gif");
+    background-image: url("/direction-1/gif.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -42,16 +42,36 @@ a.link01 {
     background: #518034;
 }
 
-.section-title {
+/* .section-title {
     position: sticky;
     text-align: left;
-    background-color: #0f1617;
-    /* padding-block-start: 0.5rem; */
+    /* background-color: #0f1617; */
+    /* padding-block-start: 0.5rem;
     padding-block-end: 0.5rem;
 
     @media (width > 800px) {
     text-align: left;
 	}
+} */
+
+.section-title {
+    font-size: 0.5rem;
+    text-align: left;
+    position: sticky;
+    top: 1rem;
+    z-index: 1;
+    top: 0;
+    background-color: var(--bg-color);
+
+    @media (width > 800px) {
+    margin-inline-end: 2rem;
+    position: sticky;
+    text-align: right;
+    justify-self: end;
+    top: 0;
+    z-index: 1;
+    text-wrap: pretty;
+}
 }
 
 .legend {
@@ -111,6 +131,7 @@ a.link01 {
 
     @media (width > 800px) {
     margin: 0rem;
+    padding-inline: 2rem;
 	}
 }
 

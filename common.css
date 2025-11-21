@@ -120,7 +120,7 @@ p {
     align-items: center;
     width: 100%;
     min-height: 60vh;
-    background-image: url("gif.gif");
+    background-image: url("../Binding/gif.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -1,5 +1,3 @@
-
-
 body {
     background-color: #091428;
 }
@@ -18,55 +16,120 @@ body {
     gap: 0.5rem;
 }
 
-#top {
-    color: #fdf9e6;
-    font-size: 1.5em;
-    text-wrap: balanced;
-    padding-inline: 1rem;
-    background-color:  #34549e;
+.background {
+    background-color: #3b5178;
+    padding-block-start: 1rem;
+    padding-block-end: 5rem;
+}
 
+.nav-item:nth-child(2) a::before {
+    content: none;
+}
+
+.nav-item:nth-child(2) a {
+    font-size: 0.7rem;
+    
     @media (width > 800px) {
-	font-size: 2.15rem;
+        font-size: 1rem;
+    }
+    
+    @media (width > 1000px) {
+        font-size: 1rem;
+    }
+    
+    @media (width > 1300px) {
+        font-size: 1.1rem;
+    }
+}
+
+h2 {
+    background-color: #091428;
+    padding-block-start:0;
+    font-size: var(--font-size);
+    line-height: 1.45rem;
     text-wrap: balance;
-    line-height: 2.5rem;
-	}
 }
 
-.one {
-    background-color: #34549e;
-    border: dashed  #091428 0.1rem;
+.screen {
+    
+    #white {
+        padding-block-end: 0.75rem;
+    }
+
+    p {
+        font-size: 0.75rem;
+        line-height: 0.75rem;
+
+        @media (width > 800px) {
+            font-size: 1rem;
+            line-height: 1rem;
+        }
+    }
+
+    h1 {
+        font-size: 2rem;
+        line-height: 1.9rem;
+        padding-block: 1rem;
+
+        @media (width > 800px) {
+            font-size: 2.5rem;
+            line-height: 2.3rem;
+            padding-block: 1.25rem;
+        }
+
+        @media (width > 1000px) {
+            font-size: 3rem;
+            line-height: 2.8rem;
+            padding-block: 1.5rem;
+        }
+
+        @media (width > 1300px) {
+            font-size: 4rem;
+            line-height: 3.8rem;
+            padding-block: 2rem;
+        }
+    }
+}
+
+#highlight {
+    background-color: #3b5178;
+    padding-inline: 0.25rem;
+    padding-block: 0.25rem;
+}
+
+.big-quote {
+    background-color: #fdf9e6;
+    min-height: 15vh;
+    align-content: center;
+    padding-block: 0.5rem;
 
     @media (width > 800px) {
-	font-size: 0.75rem;
-    text-wrap: balance;
-	}
-}
+        min-height: 20vh;
+    }
 
-.section-title {
-    @media (width > 800px) {
-	margin-inline-end: 1rem;
-	}
-}
+    h1 {
+        background-color: #fdf9e6;
+        color:#272a31;
+        font-family: 'Archivo Black';
+        font-size: 1rem;
+        line-height: 1rem;
+        text-wrap: balance;
+        text-shadow: 0 0 4rem #34549e;
+        padding-block: 1rem;
 
-a.link01 {
-    background:#34549e;
-    border-block:  #091428 dashed 0.1rem;
-}
+        @media (width > 800px) {
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+        }
 
-blockquote {
-    border-inline-start: 0.5rem solid #34549e;
-}
+        @media (width > 1000px) {
+            font-size: 1.85rem;
+            line-height: 1.85rem;
+        }
 
-.section-title {
-    background-color:  #091428;
+        @media (width > 1300px) {
+            font-size: 2rem;
+            line-height: 2rem;
+        }
+    } 
 }
-
-.link {
-    background-color: #0f2141;
-}
-
-.active {
-    background-color: #34549e;
-    color: #fdf9e6;
-}
-

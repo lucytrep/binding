@@ -21,7 +21,6 @@ html {
 .home {
     display: flex;
     align-items: center;
-    gap: 0.5rem; 
 }
 
 .home svg {
@@ -36,7 +35,7 @@ html {
     align-items: center;
     background-color: #272a31;
     padding: 0.8rem;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-weight: 500;
 
     @media (width > 800px) {
@@ -115,7 +114,7 @@ html {
         }
 
         a::before {
-            font-size: 0.7rem;
+            font-size: 0.9rem;
 
             @media (width > 800px) {
                 font-size: 1rem;
@@ -131,7 +130,7 @@ html {
         }
 
         .cta {
-            background-color: #34549e;
+            background-color: #d63968;
             padding: 0.3rem;
             border-radius: 0.3rem;
             padding-block: 0.3rem;
@@ -175,11 +174,11 @@ html {
     h2 {
         font-family: 'Archivo Black';
         font-size: calc(2.5 * var(--font-size));
-        color: #da4773;
+        color: #d63968;
 
         @media (width > 800px) {
             font-size: calc(4 * var(--font-size));
-            letter-spacing: 0.18rem;
+            padding-block-end: 1.5rem;
         }
     }
 
@@ -200,16 +199,16 @@ html {
             font-weight: 450;
             font-family: var(--example-font);
             text-align: center;
-            color: #6f9aff;
+            color: #8db6ff;
             padding: 0;
         }
     }
 }
 
 p {
-    font-size: 0.95rem;
+    /* font-size: 0.95rem; */
     padding-block-end: 1rem;
-    line-height: 1.5rem;
+    /* line-height: 2.5rem; */
 
     @media (width > 800px) {
 	font-size: 1.25rem;
@@ -229,7 +228,6 @@ p {
     background-image: url("gif.gif");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     padding-block-end: 1rem;
 
     @media (width > 800px) {
@@ -242,15 +240,40 @@ p {
         gap: 0.5rem 1rem;
         position: relative;
         z-index: 1;
+        padding-block-start: 2rem;
+
+        @media (width > 800px) {
+            padding-block-end: 1rem;
+            font-size: 2rem;
+        }
     }
 
     li {
         text-align: left;
         font-size: 0.6rem;
-        color: #da4773;
+        color: #d63968;
 
         @media (width > 800px) {
         font-size: 1rem;
+
+        }
+    }
+
+    h1 {
+        padding-block-end: 2rem;
+
+        @media (width > 800px) {
+            padding-block-end: 4rem;
+        }
+    }
+
+    .eyebrow {
+        padding-block-end: 0.5rem;
+        padding-block-start: 3rem;
+
+
+        @media (width > 800px) {
+            padding-block-end: 1rem;
         }
     }
 
@@ -273,7 +296,7 @@ p {
     text-align: center;
     padding: 0;
     margin: 0;
-    color: #da4773;
+    color: #d63968;
     font-weight: 500;
 
     @media (width > 800px) {
@@ -305,15 +328,6 @@ h1 {
             padding-block: 2rem;
         }
 } 
-
-.sub-title {
-    text-align: center;
-
-    @media (width > 800px) {
-        font-size: 2rem;
-        padding-block-end: 5rem;
-  }
-}
 
 /* 
 https://ca.pinterest.com/pin/113082640635156096/
@@ -452,7 +466,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_browser_window2  *
         border-radius: 0.75rem;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: left;
         padding: 1rem;
 
         @media (width > 800px) {
@@ -469,36 +483,38 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_browser_window2  *
 
         h1 {
             font-size: 2rem;
-            line-height: 1.9rem;
+            line-height: 1.7rem;
             text-align: center;
             padding-block: 0.75rem;
             margin: 0;
 
             @media (width > 800px) {
                 font-size: 2.5rem;
-                line-height: 2.3rem;
+                line-height: 2.2rem;
                 padding-block: 1rem;
             }
 
             @media (width > 1000px) {
                 font-size: 3rem;
-                line-height: 2.8rem;
+                line-height: 2.6rem;
                 padding-block: 1.25rem;
             }
 
             @media (width > 1300px) {
                 font-size: 4rem;
-                line-height: 3.8rem;
+                line-height: 3.35rem;
                 padding-block: 1.5rem;
             }
         }
     }
 
-    #white {
+    #date {
         color:#94304e;
-        font-size: 0.8rem;
+        font-size: 1rem;
         margin: 0;
         padding-block-start: 1.5rem;
+        text-align: center;
+        padding-block-end: 0.5rem;
 
         @media (width > 1000px) {
             font-size: 1.5rem;
@@ -507,15 +523,14 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_browser_window2  *
         }
     }
 
-    p {
+    #author-names {
         background-color: #0f1617;
-        color: #da4773;
-        font-size: 1rem;
-        letter-spacing: 0.2rem;
-        text-align: center;
+        color: #d63968;
+        font-size: 1.25rem;
         padding: 0;
         margin: 0;
         width: 100%;
+        text-align: center;
 
         @media (width > 1000px) {
             font-size: 1.75rem;
@@ -529,15 +544,86 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_browser_window2  *
         border-radius: 0.75rem;
         text-decoration: none;
         font-weight: 500;
-        font-size: 0.75rem;
-        letter-spacing: 0.1rem;
+        font-size: 0.5rem;
         margin-block-end: 2rem;
+        text-align: center;
+        align-self: center;
+
+        @media (width > 800px) {
+            font-size: 0.5rem;
+        }
 
         @media (width > 1000px) {
-            font-size: 1rem;
-            padding: 1rem;
+            font-size: 0.85rem;
             margin-block-end: 3rem;
         }
+    }
+}
+
+.big-quote {
+    background-color: #fdf9e6;
+    min-height: 40vh;
+    align-content: center;
+    justify-content: center;
+    padding-block: 1rem;
+    font-style: italic;
+    padding-inline: 2rem;
+
+    @media (width > 800px) {
+        min-height: 25vh;
+        padding-inline: 2rem;
+    }
+
+    @media (width > 1000px) {
+        padding-inline: 2rem;
+    }
+
+    @media (width > 1300px) {
+        padding-inline: 6rem;
+    }
+
+    @media (width > 1400px) {
+        padding-inline: 7rem;
+    }
+
+    @media (width > 1500px) {
+        padding-inline: 14rem;
+    }
+
+    h1 {
+        font-family: 'Archivo Black';
+        font-size: 1rem;
+        line-height: 1.2rem;
+        text-wrap: balance;
+        padding-block: 0.5rem;
+        text-align: left;
+
+        @media (width > 800px) {
+            font-size: 1.25rem;
+            line-height: 1.3rem;
+            padding-block: 1rem;
+        }
+
+        @media (width > 1000px) {
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            padding-block: 1rem;
+        }
+
+        @media (width > 1300px) {
+            font-size: 1.75rem;
+            line-height: 1.75rem;
+            padding-block: 1rem;
+        }
+    } 
+
+    #author {
+        color: #0f1617;
+        font-style: normal;
+        text-align: left;
+        font-size: calc((--font-size)/2);
+        line-height: 1rem;
+        padding-block-end: 0.5rem;
     }
 }
 
@@ -584,16 +670,20 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_browser_window2  *
     }
 
     p {
-        font-size: 0.9rem;
-        padding-block-start: 0.75rem;
+        padding-block-start: 1rem;
         font-weight: 400;
         text-wrap: pretty;
+        line-height: 2rem;
 
         @media (width > 800px) {
             font-size: 1rem;
             line-height: 1.85rem;
             text-wrap: pretty;
         }
+    }
+
+    em {
+        font-style: italic;
     }
 
     blockquote p{
@@ -631,35 +721,40 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_browser_window2  *
         line-height: 1.75rem;
     }
 
-    /* targeting H2 headings that are sticky on each page */
     h2 {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         font-family: 'Archivo Black';
         text-align: left;
-        text-wrap: balance;
         padding-block-start: 1rem;
         padding-block-end: 1.5rem;
+        line-height: 1.25rem;
+        text-wrap: balance;
 
-
-    @media (width > 800px) {
-        font-size: 2rem;
-    }
+        @media (width > 800px) {
+            font-size: 1.5rem;
+            line-height: 1.3rem;
+            text-wrap: balance;
+        }
     }
 }
 
-
 .link {
+    display: flex;
+    align-items: center;
     background-color: #0f1617;
     border: 0.1rem solid #fdf9e6;
     opacity: 80%;
-    padding-block: 0.5rem;
-    padding-inline: 1rem;
+    padding-inline: 1.1rem;
+    justify-content: center;
     position: fixed;
     bottom: 1.5rem; 
     right: 1.5rem;
     z-index: 1000;
-    justify-content: center;
-    border-radius: 100%;
+    border-radius: 50%;
+
+    a {
+        line-height: 1rem;
+    }
 }
 
 #bold {
@@ -670,7 +765,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_browser_window2  *
 
 /* https://www.bennadel.com/blog/4536-creating-a-marquee-effect-with-css-animations.htm */
 .marquee {
-    background-color: #34549e;
+    background-color: #3b5178;
     display: flex;
     overflow: hidden;
     white-space: nowrap;
@@ -762,7 +857,7 @@ from Medium */
         cursor: pointer;
         font-family: var(--example-font);
         font-weight: 500;
-        color: #0f1617;
+        color: #3b5178;
         border-bottom: 0.2rem solid transparent;
         font-size: 0.75rem;
 
@@ -791,13 +886,14 @@ from Medium */
         p {
             font-family: 'Archivo Black';
             font-size: 1.4rem;
+            font-style: italic;
             line-height: 1.4rem;
             max-width: 75vw;
             text-align: center;
-            color: #34549e;
+            color: #3b5178;
             text-wrap: balance;
             margin-block-end: 0.75rem;
-            text-shadow: 0 0 4rem #da4773;
+            text-shadow: 0 0 7rem #d63968;
 
             @media (width > 800px) {
                 font-size: calc(1.5 * var(--font-size));
@@ -825,7 +921,7 @@ from Medium */
         font-weight: 450;
         font-family: var(--example-font);
         text-align: center;
-        color: #da4773;
+        color: #d63968;
 
         @media (width > 800px) {
             font-size: 1.25rem;
@@ -844,7 +940,7 @@ from Medium */
 #author1:checked ~ nav label[for="author1"],
 #author2:checked ~ nav label[for="author2"],
 #author3:checked ~ nav label[for="author3"] {
-    border-bottom-color: #da4773;
+    border-bottom-color: #d63968;
 }
 
 #author1:checked ~ #author1-quote,
@@ -913,7 +1009,7 @@ from Medium */
     }
 
     .cta-link {
-        background-color: #34549e;
+        background-color: #d63968;
         border-radius: 0.3rem;
         padding-block: 0.5rem;
         padding-inline: 0.75rem;
@@ -935,13 +1031,8 @@ from Medium */
     }
 }
 
-.card:hover {
-    transform: scale(1) translateY(-10px);
-    box-shadow: 0 1.5rem 2.5rem #00000033;
-}
-
 .quote-card {
-    margin-block: 1rem;
+    margin-block: 2rem;
     padding-inline: 1rem;
 
     @media (width > 800px) {
@@ -951,27 +1042,32 @@ from Medium */
     }
 
     .screen {
-        padding: 2rem;
+        /* padding: 2rem; */
 
         #quote {
             color: #fdf9e6;
             font-family: 'Archivo Black';
-            line-height: 0.75rem;
-            letter-spacing: 0;
+            /* line-height: 0.75rem; */
+            /* letter-spacing: 0; */
             margin: 0;
             text-wrap: pretty;
+            padding: 0;
+            font-size: larger;
+            font-style: italic;
+            line-height: 1.35rem;
+            text-wrap: balance;
         
             @media (width > 800px) {
-                font-size: 1rem;
-                line-height: 1rem;
+                font-size: 1.5rem;
+                line-height: 1.5rem;
             }
         }
         
         p {
-            color: #fdf9e6;
-            font-size: 0.75rem;
-            line-height: 0.95rem;
-            letter-spacing: 0;
+            /* color: #fdf9e6; */
+            font-size: 1rem;
+            line-height: 1rem;
+            /* letter-spacing: 0; */
             margin: 0;
             text-wrap: pretty;
         
@@ -989,6 +1085,7 @@ footer {
     padding: 0.5rem;
     font-size: 0.7rem;
     font-weight: 500;
+    margin-block-start: 3rem;
 
     @media (width > 800px) {
         padding: 1rem;
@@ -1024,6 +1121,12 @@ footer {
     50% { 
         opacity: 0;
     }
+}
+
+#highlight {
+    padding-inline: 0.25rem;
+    padding-block: 0.25rem;
+    font-style: italic;
 }
 
 .section-header {

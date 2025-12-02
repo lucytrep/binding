@@ -17,17 +17,14 @@ body {
 }
 
 .background {
-    background-color:#7a394d;
+    background-color: #7a394d;
     padding-block-start: 1rem;
     padding-block-end: 5rem;
 }
 
 h2 {
     background-color: #240f1f;
-    padding-block-start:0;
-    font-size: var(--font-size);
-    line-height: 1.45rem;
-    text-wrap: balance;
+    padding: 0;
 }
 
 .nav-item:nth-child(3) a::before {
@@ -35,7 +32,7 @@ h2 {
 }
 
 .nav-item:nth-child(3) a {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     
     @media (width > 800px) {
         font-size: 1rem;
@@ -51,55 +48,55 @@ h2 {
 }
 
 li:nth-child(3) a::before {
-    content:none;
+    content: none;
 }
 
 #highlight {
     background-color: #7a394d;
-    padding-inline: 0.25rem;
-    padding-block: 0.25rem;
+}
+
+#space-after {
+    padding-block-end: 2rem;
 }
 
 #sub-title {
-    font-size: 2rem;
-    margin-block-end: 0;
+    font-size: 1.65rem;
+    margin-block-start: 0;
     text-decoration: underline;
     text-align: left;
-    padding-block-end: 0.5rem;
+    padding-block-end: 0;
+    text-decoration: underline;
+    text-decoration-color:#7a394d; 
+
+    @media (width > 800px) {
+        font-size: 1rem;
+    }
+    
+    @media (width > 1000px) {
+        font-size: 1.5rem;
+    }
+    
+    @media (width > 1300px) {
+        font-size: 2rem;
+    }
 }
 
 .big-quote {
     background-color: #fdf9e6;
-    min-height: 15vh;
-    align-content: center;
-    padding-block: 0.5rem;
-
-    @media (width > 800px) {
-        min-height: 20vh;
-    }
 
     h1 {
         background-color: #fdf9e6;
         color:#272a31;
-        font-family: 'Archivo Black';
-        font-size: 1rem;
-        line-height: 1rem;
-        text-wrap: balance;
         text-shadow: 0 0rem 4rem #da4773;
-
-        @media (width > 800px) {
-            font-size: 1.5rem;
-            line-height: 1.5rem;
-        }
-
-        @media (width > 1000px) {
-            font-size: 1.85rem;
-            line-height: 1.85rem;
-        }
-
-        @media (width > 1300px) {
-            font-size: 2rem;
-            line-height: 2rem;
-        }
     } 
+}
+
+.link01 {
+    text-decoration: underline;
+    text-decoration-color: #fdf9e6; 
+}
+
+.link01:hover {
+    background-color: #fdf9e6;
+    color: #240f1f;
 }

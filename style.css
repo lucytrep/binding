@@ -1,15 +1,11 @@
 :root {
     --bg-color: #0f1617;
-    --example-font: 'Helvetica Neue';
+    --example-font: 'Helvetica Neue', 'Inter', sans-serif;
     --font-size: 1.5rem;
-}
-
-#block {
-    margin-block-end: 1rem;
+    --style-font: 'Archivo Black';
 }
 
 .card-wrapper {
-
     .screen {
         background-color: transparent;
         padding: 0;
@@ -19,8 +15,73 @@
 .project {
     text-align: center;
     margin-block: 5rem;
+}
+
+.quote {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    justify-items: center;
+
+    nav {
+        display: flex;
+        gap: 1.5rem;
+
+        label {
+            font-family: var(--style-font);
+            font-size: var(--font-size);
+            cursor: pointer;
+        }
+    }
+}
+
+#about {
+    padding: 0;
+    margin-block-end: 1rem;
+}
+
+#about1-quote p,
+#about2-quote p {
+    color: #091428;
+    text-align: left;
+    padding-block-start: 0.3rem;
+    margin: 0;
+    margin-inline: 0.5rem;
+    text-wrap: pretty;
+    font-size: 0.85rem;
+    line-height: 1.3rem;
+
+    @media (width > 600px) {
+        text-align: center;
+        max-width: 80vw;
+    }
 
     @media (width > 800px) {
-    margin-block: 5rem;
+        font-size: 0.95rem;
+        line-height: 1.4rem;
+    }
+
+    @media (width > 1000px) {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        max-width: 50vw;
+    }
+}
+
+#about2-quote p {
+    padding: 0;
+    margin: 0;
+}
+
+em {
+    font-style: italic;
+}
+
+.link01 {
+    text-decoration: underline 0.15rem;
+    text-decoration-color: #d63968;
+
+    &:hover {
+        background-color: #d63968;
+        color: #fdf9e6;
     }
 }

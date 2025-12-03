@@ -17,7 +17,6 @@ body {
 }
 
 .background {
-    box-shadow: 0 0.5rem 2rem #00000033;
     background-color:#39542a;
     padding-block-start: 1rem;
     padding-block-end: 5rem;

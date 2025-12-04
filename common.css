@@ -296,7 +296,7 @@ p {
     padding-block: 1rem;
     text-wrap: pretty;
     line-height: 1.7rem;
-    text-wrap: balance;
+    text-wrap: pretty;
 
     @media (width > 800px) {
         padding-block-start: 2.0rem;

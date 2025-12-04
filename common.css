@@ -3,7 +3,7 @@
 
 :root {
     --bg-color: #0f1617;
-    --example-font: 'Helvetica Neue', 'Inter', sans-serif;
+    --body-font: 'Helvetica Neue', 'Inter', sans-serif;
     --style-font: 'Archivo Black';
     --font-size: 1.5rem;
     --letter-spacing: 0.2rem;
@@ -15,7 +15,7 @@ body {
 
 html {
     font-size: 125%;
-    font-family: Helvetica Neue, sans-serif;
+    font-family: var(--body-font);
     background-color: #0f1617;
     color: #fdf9e6;
 }
@@ -36,7 +36,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: var(--style-font);
+    font-family: var(--body-font);
     background-color: #272a31;
     padding: 0.8rem;
     font-size: 0.5rem;
@@ -145,12 +145,13 @@ html {
 
         .cta {
             background-color: #fdf9e6;
-            color: #3b5178;
+            color: #d63968;
             padding: 0.3rem;
             border-radius: 0.3rem;
             padding-block: 0.3rem;
             padding-inline: 0.3rem;
             font-size: 0.7rem;
+            transition: background-color 0.3s ease, color 0.3s ease;
 
             @media (width > 800px) {
                 padding-block: 0.5rem;
@@ -169,6 +170,15 @@ html {
                 padding-inline: 0.5rem;
                 font-size: 1rem;
             }
+
+            &:hover {
+                background-color: #d63968;
+                color: #fdf9e6;
+            }
+        }
+
+        a:hover::before {
+            color: #d63968;
         }
     }
 }
@@ -465,6 +475,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_browser_window2  *
         color:#94304e;
         line-height: 1rem;
         padding-block: 0.5rem;
+        font-weight: 500;
 
         @media (width > 1000px) {
             padding-block-start: 1.5rem;
@@ -480,7 +491,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_browser_window2  *
         width: 100%;
         padding: 0;
         line-height: 1rem;
-
+        font-weight: 400;
 
         @media (width > 1000px) {
             line-height: 1rem;
@@ -513,10 +524,10 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_browser_window2  *
 
     a {
         display: inline-block;
-        background-color: #3b5178;
+        background-color: #d63968;
         padding: 0.5rem;
-        border-radius: 0.75rem;
         font-weight: 500;
+        border-radius: 0.75rem;
         font-size: 0.75rem;
         margin-block-end: 2rem;
         text-align: left;
@@ -528,6 +539,11 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_browser_window2  *
         @media (width > 1000px) {
             font-size: 1rem;
             margin-block-start: 0.5rem;
+        }
+
+        &:hover {
+            background-color: #fdf9e6;
+            color: #d63968;
         }
     }
 }
@@ -801,7 +817,7 @@ from Medium */
     label {
         padding-block: 0.3rem;
         cursor: pointer;
-        font-family: var(--example-font);
+        font-family: var(--body-font);
         color: #3b5178;
         border-bottom: 0.2rem solid transparent;
         font-size: 0.75rem;
@@ -887,7 +903,7 @@ from Medium */
     }
 
     .cta-link {
-        background-color: #3b5178;
+        background-color: #d63968;
         border-radius: 0.3rem;
         padding-block: 0.5rem;
         padding-inline: 0.75rem;
@@ -955,7 +971,7 @@ footer {
     box-shadow: 0 0.5rem 2rem #00000033;
     background-color: #272a31;
     color: #fdf9e6;
-    padding: 0.5rem;
+    padding: 0.8rem;
     font-size: 0.7rem;
     font-weight: 500;
     margin-block-start: 3rem;
@@ -978,7 +994,7 @@ footer {
     }
 
     ul {
-        font-family: var(--style-font);
+        font-family: var(--body-font);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -1030,4 +1046,9 @@ footer {
             background-color: #c0c0c0;
         }
     }
+}
+
+.cta-link:hover {
+    background-color: #fdf9e6;
+    color: #d63968;
 }

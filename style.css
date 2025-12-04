@@ -34,6 +34,10 @@
     }
 }
 
+p{
+    padding-block-start: 1rem;
+}
+
 #about {
     padding: 0;
     margin-block-end: 1rem;
@@ -69,7 +73,7 @@
 
 #about2-quote p {
     padding: 0;
-    margin: 0;
+    margin: 0.5rem;
 }
 
 em {

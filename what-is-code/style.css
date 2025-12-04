@@ -35,7 +35,7 @@ body {
     }
 
     @media (width > 800px) {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     
     @media (width > 1000px) {
@@ -59,4 +59,21 @@ h2 {
     background-color: #fdf9e6;
     color:#272a31;
     text-shadow: 0 0 4rem #518034;
+}
+
+.quote-card .screen {
+    padding: 0.75rem;
+    margin: 0;
+
+    @media (width > 600px) {
+        padding: 1.5rem;
+    }
+
+    @media (width > 800px) {
+        padding: 1.5rem;
+    }
+
+    @media (width > 1000px) {
+        padding: 2rem;
+    }
 }

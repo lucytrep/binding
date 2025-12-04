@@ -91,6 +91,23 @@ li:nth-child(3) a::before {
     text-shadow: 0 0rem 4rem #da4773;
 }
 
+.quote-card .screen {
+    padding: 0.75rem;
+    margin: 0;
+
+    @media (width > 600px) {
+        padding: 1.5rem;
+    }
+
+    @media (width > 800px) {
+        padding: 1.5rem;
+    }
+
+    @media (width > 1000px) {
+        padding: 2rem;
+    }
+}
+
 .link01 {
     text-decoration: underline;
     text-decoration-color: #fdf9e6; 

@@ -187,29 +187,6 @@ html {
     text-decoration: underline;
 }
 
-.intro {
-    min-height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-block-start:2rem;
-    background-image: linear-gradient(to bottom, #272a31, #0f1617);
-
-    p {
-        font-size: larger;
-        text-wrap: balance;
-        max-width: 70vw;
-        line-height: 1.5rem;
-        text-align: center;
-
-        @media (width > 1300px) {
-            max-width: 50vw;
-            font-size: larger;
-        }
-    }
-}
-
 .gif {
     position: relative;
     display: flex;
@@ -405,12 +382,16 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_browser_window2  *
     padding-inline: 0.5rem;
     display: flex;
     align-items: center;
-    font-size: 0.65rem;
+    font-size: 0.5rem;
     color: #666;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     min-width: 0;
+
+    @media (width > 400px) {
+        font-size: 0.6rem;
+    }
 
     @media (width > 800px) {
         height: 2rem;
@@ -602,7 +583,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_browser_window2  *
     #author {
         color: #0f1617;
         font-style: normal;
-        padding-block: 0;
+        padding-block-start: 0.3rem;
         line-height: 1rem;
         padding-block-end: 1rem; 
     }
@@ -729,7 +710,8 @@ h2 {
 /* https://www.bennadel.com/blog/4536-creating-a-marquee-effect-with-css-animations.htm */
 .marquee {
     font-family: var(--style-font);
-    background-color: #3b5178;
+    background-color: #fdf9e6;
+    color: #d63968;
     display: flex;
     overflow: hidden;
     white-space: nowrap;
@@ -764,14 +746,14 @@ h2 {
 /* followed tutorial
 https://medium.com/the-research-nest/inpage-tabs-with-pure-html-and-css-537d16597ad5 or search InPage Tabs with Pure HTML and CSS
 from Medium */
-.quote {
+.intro {
     background-color: #fdf9e6;
     min-height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-wrap: balance;
+    text-wrap: pretty;
     padding: 1.5rem 0.75rem;
 
     @media (width > 800px) {
@@ -817,8 +799,8 @@ from Medium */
     label {
         padding-block: 0.3rem;
         cursor: pointer;
-        font-family: var(--body-font);
-        color: #3b5178;
+        font-family: var(--style-font);
+        color: #d63968;
         border-bottom: 0.2rem solid transparent;
         font-size: 0.75rem;
 
@@ -851,7 +833,7 @@ from Medium */
 
 #about1:checked ~ nav label[for="about1"],
 #about2:checked ~ nav label[for="about2"] {
-    border-bottom-color: #d63968;
+    border-bottom-color: #0f1617;
 }
 
 #cards-container {
@@ -937,21 +919,25 @@ from Medium */
     }
 
     .screen {
-
         #quote {
             font-family: var(--style-font);
-            font-size: smaller;
+            font-size: 0.85rem;
             margin: 0;
             text-wrap: pretty;
             padding: 0;
             font-style: italic;
-            line-height: 1rem;
-            text-wrap: balance;
-            word-spacing: 0.1rem;
+            line-height: 0.9rem;
+            text-wrap: pretty;
+            word-spacing: 0.2rem;
         
             @media (width > 800px) {
-                font-size: larger;
-                line-height: 1.25rem;
+                font-size: 0.8rem;
+                line-height: 0.8rem;
+            }
+
+            @media (width > 1000px) {
+                font-size: 1rem;
+                line-height: 1.1rem;
             }
         }
         
@@ -1038,12 +1024,11 @@ footer {
     align-items: center;
 
     .nav-arrow {
-        opacity: 0.5;
         text-decoration: none;
         
         &.active {
-            opacity: 1;
-            background-color: #c0c0c0;
+            opacity: 100%;
+            background-color: #a8a8a8;
         }
     }
 }

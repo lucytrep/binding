@@ -802,7 +802,7 @@ from Medium */
         font-family: var(--style-font);
         color: #d63968;
         border-bottom: 0.2rem solid transparent;
-        font-size: 0.75rem;
+        font-size: 1rem;
 
         @media (width > 800px) {
             padding-block: 1rem;

@@ -649,7 +649,6 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_browser_window2  *
 }
 
 .quote-card {
-    box-shadow: 0 0.5rem 2rem #00000033;
     margin-block: 2rem;
     padding-inline: var(--padding-inline);
 

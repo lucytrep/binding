@@ -3,6 +3,8 @@
     --example-font: 'Helvetica Neue', 'Inter', sans-serif;
     --font-size: 1.5rem;
     --style-font: 'Archivo Black';
+    --link-color: #d63968;
+    --off-white: #fdf9e6;
 }
 
 .card-wrapper {
@@ -82,10 +84,10 @@ em {
 
 .link01 {
     text-decoration: underline 0.15rem;
-    text-decoration-color: #d63968;
+    text-decoration-color: var(--link-color);
 
     &:hover {
-        background-color: #d63968;
-        color: #fdf9e6;
+        background-color: var(--link-color);
+        color: var(--off-white);
     }
 }

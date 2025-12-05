@@ -1,13 +1,36 @@
+:root {
+    --color: #7a394d;
+    --off-white: #fdf9e6;
+}
+
 body {
     background-color: #240f1f;
 }
 
-.home svg {
-    width: 2rem;
-    height: auto;
-    display: inline-block;
-    vertical-align: middle;
-    flex: 0 0 auto;
+h2 {
+    background-color: #240f1f;
+}
+
+#sub-title {
+    font-size: 1.65rem;
+    margin-block-start: 0;
+    text-decoration: underline;
+    text-align: left;
+    padding-block-end: 0;
+    text-decoration: underline;
+    text-decoration-color: var(--color); 
+
+    @media (width > 800px) {
+        font-size: 1rem;
+    }
+    
+    @media (width > 1000px) {
+        font-size: 1.5rem;
+    }
+    
+    @media (width > 1300px) {
+        font-size: 2rem;
+    }
 }
 
 .home {
@@ -16,14 +39,12 @@ body {
     gap: 0.5rem;
 }
 
-.background {
-    background-color: #7a394d;
-    padding-block-start: 1rem;
-    padding-block-end: 5rem;
-}
-
-h2 {
-    background-color: #240f1f;
+.home svg {
+    width: 2rem;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    flex: 0 0 auto;
 }
 
 .nav-item:nth-child(3) a::before {
@@ -51,42 +72,32 @@ h2 {
     }
 }
 
-li:nth-child(3) a::before {
-    content: none;
+.background {
+    background-color: var(--color);
+    padding-block-start: 1rem;
+    padding-block-end: 5rem;
 }
 
 #highlight {
-    background-color: #7a394d;
+    background-color: var(--color);
 }
 
 #space-after {
     padding-block-end: 2rem;
 }
 
-#sub-title {
-    font-size: 1.65rem;
-    margin-block-start: 0;
+.link01 {
     text-decoration: underline;
-    text-align: left;
-    padding-block-end: 0;
-    text-decoration: underline;
-    text-decoration-color:#7a394d; 
+    text-decoration-color: var(--off-white); 
+}
 
-    @media (width > 800px) {
-        font-size: 1rem;
-    }
-    
-    @media (width > 1000px) {
-        font-size: 1.5rem;
-    }
-    
-    @media (width > 1300px) {
-        font-size: 2rem;
-    }
+.link01:hover {
+    background-color: var(--off-white);
+    color: #240f1f;
 }
 
 .big-quote h1 {
-    background-color: #fdf9e6;
+    background-color: var(--off-white);
     color:#272a31;
     text-shadow: 0 0rem 4rem #da4773;
 }
@@ -106,14 +117,4 @@ li:nth-child(3) a::before {
     @media (width > 1000px) {
         padding: 2rem;
     }
-}
-
-.link01 {
-    text-decoration: underline;
-    text-decoration-color: #fdf9e6; 
-}
-
-.link01:hover {
-    background-color: #fdf9e6;
-    color: #240f1f;
 }

@@ -1,13 +1,14 @@
+:root {
+    --color: #39542a;
+    --off-white: #fdf9e6;
+}
+
 body {
     background-color: #121d0c;
 }
 
-.home svg {
-    width: 2rem;
-    height: auto;
-    display: inline-block;
-    vertical-align: middle;
-    flex: 0 0 auto;
+h2 {
+    background-color: #121d0c;
 }
 
 .home {
@@ -16,10 +17,12 @@ body {
     gap: 0.5rem;
 }
 
-.background {
-    background-color:#39542a;
-    padding-block-start: 1rem;
-    padding-block-end: 5rem;
+.home svg {
+    width: 2rem;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    flex: 0 0 auto;
 }
 
 .nav-item:nth-child(1) a::before {
@@ -47,16 +50,18 @@ body {
     }
 }
 
-h2 {
-    background-color: #121d0c;
+.background {
+    background-color: var(--color);
+    padding-block-start: 1rem;
+    padding-block-end: 5rem;
 }
 
 #highlight {
-    background-color: #39542a;
+    background-color: var(--color);
 }
 
 .big-quote h1 {
-    background-color: #fdf9e6;
+    background-color: var(--off-white);
     color:#272a31;
     text-shadow: 0 0 4rem #518034;
 }

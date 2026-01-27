@@ -83,7 +83,6 @@ sub {
 
 .big-quote h1 {
     color:#272a31;
-    text-shadow: 0 0 4rem #34549e;
     font-size: 1.2rem;
 
     @media (width > 800px) {

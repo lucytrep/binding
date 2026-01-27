@@ -63,7 +63,6 @@ h2 {
 .big-quote h1 {
     background-color: var(--off-white);
     color:#272a31;
-    text-shadow: 0 0 4rem #518034;
 }
 
 .quote-card .screen {
